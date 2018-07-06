@@ -1,0 +1,25 @@
+.container.servicios{
+   margin-top: 70px;
+}
+
+@media screen and (max-width: 760px){
+   .container.servicios{
+      margin-top: 0px;
+   }
+}
+
+.servicios-col{
+   float: left;
+   text-align: center;
+}
+
+.areaservicio-especialista, .card.card-body{
+   margin-top: 3%;
+}
+
+.areaservicio-especialista -> button{
+   background: green;
+}
+
+
+
