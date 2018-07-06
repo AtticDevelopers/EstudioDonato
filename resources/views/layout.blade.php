@@ -2,12 +2,15 @@
 <html>
 <head>
 	<title>Estudio Donato</title>
+	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<!-- Nuestro CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header>
-		<div class="container">
-			<div>
+		<div id="franja-fixed-top">
+			<div class="container">
 				<span><i class="fa fa-phone"></i>123456</span>
 				<span><i class="fa fa-map-marker"></i>Direccion 123</span>
 			</div>
@@ -24,13 +27,13 @@
 							<a class="nav-link" href="/">Inicio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Historia</a>
+							<a class="nav-link" href="/historia">Historia</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Especialistas</a>
+							<a class="nav-link" href="/especialistas">Especialistas</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Contacto</a>
+							<a class="nav-link" href="/contacto">Contacto</a>
 						</li>
 					</ul>
 				</div>
