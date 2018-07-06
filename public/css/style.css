@@ -26,6 +26,9 @@
 .far, .fas {
 	margin: 5px;
 }
+.copyright {
+	float: right;
+}
 
 .contacto {
 	float: left;
