@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/contacto', function () {
-    return view('contaco');
+    return view('contacto');
 });
 
 Route::get('/especialistas', function () {
