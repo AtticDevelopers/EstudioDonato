@@ -1,19 +1,33 @@
-#franja-fixed-top {
-	background: blue;
-	color: black;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 100;
-	width: 100%;
-	height: 25px;
+
+
+.navbar {
+	background: #734d26;
 }
 
-#menu-fixed-top {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 100;
+.nav-link {
+	color: white;
 }
+
+.nav-link:hover {
+	color: black;
+}
+
+#logo {
+	max-height: 100px;
+	max-width: 200px;
+}
+
+#footer {
+	background: black;
+	opacity: 0.9;
+	color: white;
+}
+
+.far, .fas {
+	margin: 5px;
+}
+
+.contacto {
+	float: left;
+}
+
