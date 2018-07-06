@@ -39,8 +39,7 @@
 	</header>
 
 	<section>
-		@section('body')
-		@endsection
+		@yield('body')
 	</section>
 
 	<footer>
