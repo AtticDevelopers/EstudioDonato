@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('layout');
 });
+
+Route::get('/contacto', function () {
+    return view('contaco');
+});
+
+Route::get('/especialistas', function () {
+    return view('especialistas');
+});
+
+Route::get('/historia', function () {
+    return view('historia');
+});
