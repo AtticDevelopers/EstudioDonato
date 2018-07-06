@@ -9,17 +9,14 @@
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	@yield('style')
+	
 </head>
 <body>
-	<div class="header" id="fixed-top">
-		<div id="franja-fixed-top">
-			<div class="container">
-				<span><i class="fa fa-phone"></i>123456</span>
-				<span><i class="fa fa-map-marker"></i>Direccion 123</span>
-			</div>
-		</div>
-		<div class="container" id="menu-fixed-top">
-			<div class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="header">
+		<div class="container">
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item active">
@@ -36,7 +33,7 @@
 						</li>
 					</ul>
 				</div>
-			</div>
+			</nav>
 		</div>
 
 	</div>
