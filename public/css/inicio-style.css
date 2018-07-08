@@ -30,7 +30,7 @@ h3.card-title::after {
 .card.servicio {
   margin: auto;
   border-color: #034f84;
-  border-radius: 10%;
+  border-radius: 0 5% 5% 5%;
   border-width: thin thin thin thick;
   margin-bottom: 10px;
 }
@@ -38,7 +38,7 @@ h3.card-title::after {
 .tituloinicio , .copetetitulo {
     text-align: center;
 }
+
 .card-link {
   float: right;
-  content: attr(href="/public/contacto");
 }
