@@ -25,7 +25,7 @@
 @section('body')
 	<!-- Page Content -->
 
-	<div class="container-contact100" style="margin-top: 50px;">
+	<div class="container-contact100">
 		<div class="wrap-contact100">
 
 			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
@@ -41,7 +41,7 @@
 						</span>
 
 						<span class="txt2">
-							Espana 431, Bahia Blanca, Buenos Aires, 8000
+							España 431, Bahia Blanca, Buenos Aires, 8000
 						</span>
 						<!-- Map Column -->
 					<div id="map">
