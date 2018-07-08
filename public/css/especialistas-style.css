@@ -1,21 +1,26 @@
-.container.servicios{
-   margin-top: 70px;
+body {
+  padding-top: 54px;
 }
 
-@media screen and (max-width: 760px){
-   .container.servicios{
-      margin-top: 0px;
-   }
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
 }
 
-.servicios-col{
-   float: left;
-   text-align: center;
+.portfolio-item {
+  margin-bottom: 30px;
 }
 
-.areaservicio-especialista, .card.card-body{
-   margin-top: 3%;
+.btn.btn-primary.btn-area{
+   margin: auto;
+   display: block;
+   background: cornflowerblue;
+   font-weight: 500;
+   font-size-adjust: auto;
 }
+
+
 
 
 
