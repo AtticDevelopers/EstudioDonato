@@ -1,5 +1,6 @@
-
-
+.container {
+  margin: auto;
+}
 .carousel-inner {
   /* make sure your .items will get correct height */
   height: 100%;
@@ -14,14 +15,10 @@
   width: 100%;
 }
 
-.containerservicios {
-  margin-top: 50px;
-}
-
-h3::after {
+h3.card-title::after {
     content:' ';
     display:block;
-    border:2px solid #d0d0d0;
+    border:2px solid #812020;
     border-radius:4px;
     -webkit-border-radius:4px;
     -moz-border-radius:4px;
@@ -30,6 +27,14 @@ h3::after {
     -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
 }
 
-h6::before {
-    content: url('public/images/tic2.png');
+.card.servicio {
+  margin: auto;
+  border-color: #812020;
+  border-radius: 10%;
+  border-width: thin thin thin thick;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  float: right;
 }
