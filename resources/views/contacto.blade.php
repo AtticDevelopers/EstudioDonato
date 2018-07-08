@@ -1,93 +1,267 @@
 @extends('layout')
 @section('style')
   <!-- CSS contacto -->
-	<link rel="stylesheet" type="text/css" href="css/contact-style.css">
+	<!--===============================================================================================-->
+		<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<!--===============================================================================================-->
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="css/util.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 @endsection
 @section('body')
 	<!-- Page Content -->
-	<div class="container" style="margin-top: 70px;">
 
-		<!-- Content Row -->
-		<div class="row">
-			<!-- Map Column -->
-			<div class="col-lg-8 mb-4" id="map">
-				<!-- Embedded Google Map -->
+	<div class="container-contact100" style="margin-top: 70px;">
+		<div class="wrap-contact100">
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
+
+				<div class="flex-w size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Direccion
+						</span>
+
+						<span class="txt2">
+							Espana 431, Bahia Blanca, Buenos Aires, 8000
+						</span>
+						<!-- Map Column -->
+					<div id="map">
+						<!-- Embedded Google Map -->
+					</div>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Llamanos
+						</span>
+
+						<span class="txt3">
+							(291) 455 2257
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Mail de contacto
+						</span>
+
+						<span class="txt3">
+							contacto@estudiodonato.com
+						</span>
+					</div>
+				</div>
 			</div>
-			<!-- Contact Details Column -->
-			<div class="col-lg-4 mb-4">
-				<h3>Oficina Bahia Blanca</h3>
-				<p>
-					Espana 431
-					<br>Bahia Blanca, Buenos Aires 8000
-					<br>
-				</p>
-				<p>
-					<abbr title="Telefono">Tel</abbr>: (291) 456-7890
-				</p>
-				<p>
-					<abbr title="Email">Mail</abbr>:
-					<a href="mailto:name@example.com">contaco@estudiodonato.com
-					</a>
-				</p>
-				<p>
-					<abbr title="Horario">Horario</abbr>: Lunes - Viernes: 9:00 AM a 5:00 PM
-				</p>
-			</div>
+
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Oficina Bahia Blanca
+				</span>
+
+				<label class="label-input100" for="first-name">Dejanos tu nombre *</label>
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+					<input id="first-name" class="input100" type="text" name="first-name" placeholder="Nombre">
+
+				</div>
+				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+					<input class="input100" type="text" name="last-name" placeholder="Apellido">
+
+				</div>
+
+				<label class="label-input100" for="email">Mail *</label>
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+
+				</div>
+
+				<label class="label-input100" for="phone">Ingrese numero de telefono</label>
+				<div class="wrap-input100">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="">
+
+				</div>
+
+				<label class="label-input100" for="message">Mensaje *</label>
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<textarea id="message" class="input100" name="message" placeholder="Dejanos tu mensaje"></textarea>
+
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						Enviar menasje
+					</button>
+				</div>
+			</form>
+
 		</div>
-		<!-- /.row -->
-
-		<!-- Contact Form -->
-		<!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-		<div class="row">
-			<div class="col-lg-8 mb-4">
-				<h3>Dejanos tu mensaje para coordinar un encuentro</h3>
-				<form name="sentMessage" id="contactForm" novalidate>
-					<div class="control-group form-group">
-						<div class="controls">
-							<label>Nombre completo:</label>
-							<input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-							<p class="help-block"></p>
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<label>Numero telefono:</label>
-							<input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<label>Mail:</label>
-							<input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<label>Mensaje:</label>
-							<textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-						</div>
-					</div>
-					<div id="success"></div>
-					<!-- For success/fail messages -->
-					<button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar mensaje</button>
-				</form>
-			</div>
-
-		</div>
-		<!-- /.row -->
-
 	</div>
-	<!-- /.container -->
+
+	<div class="container-contact100" style="margin-top: 70px;">
+		<div class="wrap-contact100">
+
+			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
+
+				<div class="flex-w size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Direccion
+						</span>
+
+						<span class="txt2">
+							Espana 431, Bahia Blanca, Buenos Aires, 8000
+						</span>
+					</div>
+
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Llamanos
+						</span>
+
+						<span class="txt3">
+							(291) 455 2257
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Mail de contacto
+						</span>
+
+						<span class="txt3">
+							contacto@estudiodonato.com
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Oficina Bahia Blanca
+				</span>
+
+				<label class="label-input100" for="first-name">Dejanos tu nombre *</label>
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+					<input id="first-name" class="input100" type="text" name="first-name" placeholder="Nombre">
+
+				</div>
+				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+					<input class="input100" type="text" name="last-name" placeholder="Apellido">
+
+				</div>
+
+				<label class="label-input100" for="email">Mail *</label>
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+
+				</div>
+
+				<label class="label-input100" for="phone">Ingrese numero de telefono</label>
+				<div class="wrap-input100">
+					<input id="phone" class="input100" type="text" name="phone" placeholder="">
+
+				</div>
+
+				<label class="label-input100" for="message">Mensaje *</label>
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<textarea id="message" class="input100" name="message" placeholder="Dejanos tu mensaje"></textarea>
+
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						Enviar menasje
+					</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
 
 
-	<!-- Contact form JavaScript -->
-	<!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+
+	<div id="dropDownSelect1"></div>
+
+
 	<script src=js/contacto.js></script>
 	<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1NEVvUku-j3rt90MdOVQBNNxW7PMlTck&callback=initMap">
-  </script>
-	<script src="js/jqBootstrapValidation.js"></script>
-	<script src="js/contact_me.js"></script>
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1NEVvUku-j3rt90MdOVQBNNxW7PMlTck&callback=initMap">
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-23581568-13');
+	</script>
 
 </body>
 @endsection
