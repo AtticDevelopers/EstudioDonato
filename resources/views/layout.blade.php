@@ -13,14 +13,14 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 	<!-- Nuestro CSS -->
-	<link rel="stylesheet" type="text/css" href="css/main-style.css">
+	<link rel="stylesheet" type="text/css" href="css/main-style.css"> 
 
 	@yield('style')
 
 </head>
 <body>
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<nav class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
 			<a class="navbar-brand" href="./">Estudio Donato</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,9 +50,9 @@
 	@yield('body')
 
 	<!-- Footer -->
-	<footer class="py-5 bg-dark">
+	<footer class="py-5">
 		<div class="container">
-			<p class="m-0 text-center text-white">Estudio Donato - Copyright &copy; 2018</p>
+			<p class="m-0 text-center text-white">Estudio Donato - Copyright <i class="far fa-copyright"></i> 2018</p>
 			<p class="m-0 text-center text-white">Attic Developers</p>
 		</div>
 		<!-- /.container -->
