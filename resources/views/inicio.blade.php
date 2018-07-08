@@ -60,7 +60,7 @@
         </h3>
         <p>Mucha sarasa para probar una propiedad de la columna ia tu sabe</p>
         <h6 class="text-right">
-          <img src="images/tic2.png">
+          
           Me interesa
         </h6>
       </div>
