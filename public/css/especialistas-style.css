@@ -1,24 +1,22 @@
-body {
-  padding-top: 54px;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
-
 .portfolio-item {
-  margin-bottom: 30px;
+   margin-bottom: 30px;
 }
 
-.btn.btn-primary.btn-area{
+.btn.btn-primary.btn-area, .btn.btn-primary.btn-contactar-profesional{
    margin: auto;
    display: block;
    background: cornflowerblue;
    font-weight: 500;
    font-size-adjust: auto;
 }
+
+
+img.rounded-circle.img-fluid.d-block.mx-auto.responsive{
+   width: auto;
+   height: auto;
+}
+
+
 
 
 
