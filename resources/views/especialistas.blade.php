@@ -7,96 +7,219 @@
 
 
 @section('body')
-<div class="container servicios col-sm-12"> 
-   <div class="row"> 
-      <div class="servicios-col col-md-4" id="col-1">
-         <div class="areaservicio-especialista">   
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
-               Button 1
-            </button>
-            <div class="collapse" id="collapseExample1">
-               <div class="card card-body">
-                  Este sería el texto del servicio  1
-               </div>
-            </div>        
-         </div>  
+<!-- Page Content -->
+<div class="container">
 
-         <div class="areaservicio-especialista"> 
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
-               Button 2
-            </button> 
-            <div class="collapse" id="collapseExample2">
-               <div class="card card-body">
-                  Este sería el texto del servicio 2
-               </div>
-            </div>
-         </div> 
+   <!-- Page Heading -->
+   <h1 class="my-4">Especialistas
+      <small>Clasificación por áreas</small>
+   </h1>
 
-         <div class="areaservicio-especialista"> 
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
-               Button 3
-            </button> 
-            <div class="collapse" id="collapseExample3">
-               <div class="card card-body">
-                  Este sería el texto del servicio 3
-               </div>
-            </div>
-         </div> 
-      </div>
-
-
-      <div class="servicios-col col-md-4" id="col-2">   
-         <div class="areaservicio-especialista"> 
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
-               Button 4
-            </button>
-         </div>  
-         <div class="collapse" id="collapseExample4">
-            <div class="card card-body">
-               Este sería el texto del servicio 4
-            </div>
-         </div>
-
-         <div class="areaservicio-especialista"> 
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
-               Button 5
-            </button> 
-            <div class="collapse" id="collapseExample5">
-               <div class="card card-body">
-                  Este sería el texto del servicio 5
-               </div>
-            </div>
-         </div> 
-
-         <div class="areaservicio-especialista"> 
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
-               Button 6
-            </button>
-            <div class="collapse" id="collapseExample6">
-               <div class="card card-body">
-                  Este sería el texto del servicio 6
-               </div>
-            </div>
-         </div> 
-      </div>
-
-      <div class="servicios-col col-md-4" id="col-3">
-         <div class="areaservicio-especialista"> 
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
-               Button 7
-            </button>
-            <div class="collapse" id="collapseExample7">
-               <div class="card card-body">
-                  Este sería el texto del servicio 7
+   <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+         <div class="card h-200">
+            <img class="card-img-top" src="images/law1.jpg" alt="">
+            <div class="card-body">
+               <h4 class="card-title">
+                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoCivil" aria-expanded="false" aria-controls="textoCivil">
+                     Civil
+                  </div>
+               </h4>
+               <div class="collapse" id="textoCivil">
+                  <p class="card-text">Profesional: Donato, Ramiro</p>
+                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+         <div class="card h-100">
+            <img class="card-img-top" src="images/law2.jpg" alt="">
+            <div class="card-body">
+               <h4 class="card-title">
+                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoComercial" aria-expanded="false" aria-controls="textoComercial">
+                     Comercial
+                  </div>
+               </h4>
+               <div class="collapse" id="textoComercial">
+                  <p class="card-text">Profesional: Donato, Ramiro</p>
+                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+         <div class="card h-100">
+            <img class="card-img-top" src="images/law3.jpg" alt=""> 
+            <div class="card-body">
+               <h4 class="card-title">
+                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoAdministrativo" aria-expanded="false" aria-controls="textoAdministrativo">
+                     Administrativo
+                  </div>
+               </h4>
+               <div class="collapse" id="textoAdministrativo">
+                  <p class="card-text">Profesional: Donato, Ramiro</p>
+                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+         <div class="card h-100">
+            <a><img class="card-img-top" src="images/law4.jpg" alt=""></a>
+            <div class="card-body">
+               <h4 class="card-title">
+                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoFamilia" aria-expanded="false" aria-controls="textoFamilia">
+                     Familia
+                  </div>
+               </h4>
+               <div class="collapse" id="textoFamilia">
+                  <p class="card-text">Profesional: Donato, Rocío</p>
+                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+         <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/law1.jpg" alt=""></a>
+            <div class="card-body">
+               <h4 class="card-title">
+                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoLaboral" aria-expanded="false" aria-controls="textoLaboral">
+                     Laboral
+                  </div>
+               </h4>
+               <div class="collapse" id="textoLaboral">
+                  <p class="card-text">Profesional: Donato, Rodrigo</p>
+                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+         <div class="card h-100">
+            <a><img class="card-img-top" src="images/law2.jpg" alt=""></a>
+            <div class="card-body">
+               <h4 class="card-title">
+                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoSucesiones" aria-expanded="false" aria-controls="textoSucesiones">
+                     Sucesiones
+                  </div>
+               </h4>
+               <div class="collapse" id="textoSucesiones">
+                  <p class="card-text">Profesional: Donato, Ramiro</p>
+                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+         <div class="card h-100">
+            <a><img class="card-img-top" src="images/law3.jpg" alt=""></a>
+            <div class="card-body">
+               <h4 class="card-title">
+                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoPrevisional" aria-expanded="false" aria-controls="textoPrevisional">
+                     Previsional
+                  </div>
+               </h4>
+               <div class="collapse" id="textoPrevisional">
+                  <p class="card-text">Profesional: Rodriguez, Flavia</p>
+                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+         <div class="card h-100">
+            <a><img class="card-img-top" src="images/law4.jpg" alt=""></a>
+            <div class="card-body">
+               <h4 class="card-title">
+                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoMediacionPrejudicial" aria-expanded="false" aria-controls="textoMediacionPrejudicial">
+                     Mediacion Prejudicial
+                  </div>
+               </h4>
+               <div class="collapse" id="textoMediacionPrejudicial">
+                  <p class="card-text">Profesionales: No es área específica</p>
+                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- /.row -->
 
+   <!-- Introduction Row -->
+   <h1 class="my-4">Especialistas
+      <small>Clasificación por profesional</small>
+   </h1>
+   <!-- Team Members Row -->
+   <div class="row">
+      <div class="col-lg-12">
+         <h2 class="my-4">El equipo</h2>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+         <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
+         <h3>Donato, Ramiro
+            <small>Job Title</small>
+         </h3>
+         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <div class="btn btn-primary btn-contactar-profesional responsive" type="button">
+            Contactar
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+         <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
+         <h3>Donato, Rodrigo
+            <small>Job Title</small>
+         </h3>
+         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <div class="btn btn-primary btn-contactar-profesional" type="button">
+            Contactar
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+         <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
+         <h3>Donato, Rocío
+            <small>Job Title</small>
+         </h3>
+         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <div class="btn btn-primary btn-contactar-profesional" type="button">
+            Contactar
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+         <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
+         <h3>Rodriguez, Flavia
+            <small>Job Title</small>
+         </h3>
+         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <div class="btn btn-primary btn-contactar-profesional" type="button">
+            Contactar
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+         <img class="rounded-circle img-fluid d-block mx-auto responsive" src="https://scontent.fbhi1-1.fna.fbcdn.net/v/t1.0-9/13902796_10210214959111016_4547269968658509038_n.jpg?_nc_cat=0&oh=7231f6adb159b6319f9ef9d53831b31b&oe=5BE2F2DD" alt="">
+         <h3>Mancini, Lautaro 
+            <small>Demonio</small>
+         </h3>
+         <p>Fortnite Gammer - PS4 - Pro - Streamer on Youtube and Twitch</p>
+         <div class="btn btn-primary btn-contactar-profesional" type="button">
+            Contactar
+         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center mb-4">
+         <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
+         <h3>Juan Perez
+            <small>Job Title</small>
+         </h3>
+         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <div class="btn btn-primary btn-contactar-profesional" type="button">
+            Contactar
+         </div>
       </div>
    </div>
 
-
 </div>
+<!-- /.container -->
 
 @endsection
 
