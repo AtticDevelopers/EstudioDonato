@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('style')
-  <link rel="stylesheet" type="text/css" href="css/styleInicio.css">
+  <link rel="stylesheet" type="text/css" href="css/inicio-style.css">
 @endsection
 
 @section('body')
