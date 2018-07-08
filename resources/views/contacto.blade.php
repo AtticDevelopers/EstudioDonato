@@ -25,7 +25,7 @@
 @section('body')
 	<!-- Page Content -->
 
-	<div class="container-contact100" style="margin-top: 70px;">
+	<div class="container-contact100" style="margin-top: 50px;">
 		<div class="wrap-contact100">
 
 			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
@@ -125,106 +125,6 @@
 
 		</div>
 	</div>
-
-	<div class="container-contact100" style="margin-top: 70px;">
-		<div class="wrap-contact100">
-
-			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
-
-				<div class="flex-w size1 p-b-47">
-					<div class="txt1 p-r-25">
-						<span class="lnr lnr-map-marker"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1 p-b-20">
-							Direccion
-						</span>
-
-						<span class="txt2">
-							Espana 431, Bahia Blanca, Buenos Aires, 8000
-						</span>
-					</div>
-
-				</div>
-
-				<div class="dis-flex size1 p-b-47">
-					<div class="txt1 p-r-25">
-						<span class="lnr lnr-phone-handset"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1 p-b-20">
-							Llamanos
-						</span>
-
-						<span class="txt3">
-							(291) 455 2257
-						</span>
-					</div>
-				</div>
-
-				<div class="dis-flex size1 p-b-47">
-					<div class="txt1 p-r-25">
-						<span class="lnr lnr-envelope"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1 p-b-20">
-							Mail de contacto
-						</span>
-
-						<span class="txt3">
-							contacto@estudiodonato.com
-						</span>
-					</div>
-				</div>
-			</div>
-
-			<form class="contact100-form validate-form">
-				<span class="contact100-form-title">
-					Oficina Bahia Blanca
-				</span>
-
-				<label class="label-input100" for="first-name">Dejanos tu nombre *</label>
-				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-					<input id="first-name" class="input100" type="text" name="first-name" placeholder="Nombre">
-
-				</div>
-				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-					<input class="input100" type="text" name="last-name" placeholder="Apellido">
-
-				</div>
-
-				<label class="label-input100" for="email">Mail *</label>
-				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
-
-				</div>
-
-				<label class="label-input100" for="phone">Ingrese numero de telefono</label>
-				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="phone" placeholder="">
-
-				</div>
-
-				<label class="label-input100" for="message">Mensaje *</label>
-				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<textarea id="message" class="input100" name="message" placeholder="Dejanos tu mensaje"></textarea>
-
-				</div>
-
-				<div class="container-contact100-form-btn">
-					<button class="contact100-form-btn">
-						Enviar menasje
-					</button>
-				</div>
-			</form>
-
-		</div>
-	</div>
-
-
 
 	<div id="dropDownSelect1"></div>
 
