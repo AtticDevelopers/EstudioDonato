@@ -62,75 +62,75 @@
   <!-- Page Content -->
   <section class="py-5">
     <div class="container">
-      <h1 class="tituloinicio">Half Slider by Start Bootstrap</h1>
-      <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the motheraosdoaksodkaosdkaoskdoaskdoaksd</p>
+      <h1 class="tituloinicio">Nuestros Servicios</h1>
+      <p class="copetetitulo">Especialistas en cada una de las areas. Años de trayectoria para su seguridad y confianza.</p>
     </div>
   </section>
 
   <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-6 unserv">
+        <div class="col-lg-4 col-sm-6">
 
-            <div class="card servicio" style="width: 18rem;">
+            <div class="card servicio">
               <div class="card-body">
                 <h3 class="card-title">Card title</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
+                <a href="/public/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
               </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-6 unserv">
-          <div class="card servicio" style="width: 18rem;">
+        <div class="col-lg-4 col-sm-6">
+          <div class="card servicio">
             <div class="card-body">
               <h3 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
+              <a href="/public/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
 
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 unserv">
-          <div class="card servicio" style="width: 18rem;">
+        <div class="col-lg-4 col-sm-6">
+          <div class="card servicio">
             <div class="card-body">
               <h3 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
+              <a href="/public/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
 
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 unserv">
-          <div class="card servicio" style="width: 18rem;">
+        <div class="col-md-4 col-sm-6">
+          <div class="card servicio">
             <div class="card-body">
               <h3 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
+              <a  href="/public/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
 
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 unserv">
-          <div class="card servicio" style="width: 18rem;">
+        <div class="col-md-4 col-sm-6">
+          <div class="card servicio">
             <div class="card-body">
               <h3 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
+              <a href="/public/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
 
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 unserv">
-          <div class="card servicio" style="width: 18rem;">
+        <div class="col-md-4 col-sm-6">
+          <div class="card servicio">
             <div class="card-body">
               <h3 class="card-title">Card title</h5>
               <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
+              <a href="/public/contacto" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
 
             </div>
           </div>

@@ -35,6 +35,10 @@ h3.card-title::after {
   margin-bottom: 10px;
 }
 
+.tituloinicio , .copetetitulo {
+    text-align: center;
+}
 .card-link {
   float: right;
+  content: attr(href="/public/contacto");
 }
