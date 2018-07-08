@@ -10,8 +10,7 @@
     <div class="container">
 
       <!-- Page Heading -->
-      <h1 class="my-4">Estudio Donato
-        <small>Nuestra historia</small>
+      <h1 class="my-4">Nuestra historia
       </h1>
 
       <div class="row">
