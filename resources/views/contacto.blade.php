@@ -25,9 +25,11 @@
 @section('body')
 	<!-- Page Content -->
 
+	<div>
+		<h3> Oficina Bahia Blanca </h3>
+	</div>
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-
 			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
 
 				<div class="flex-w size1 p-b-47">
@@ -100,7 +102,7 @@
 
 				<label class="label-input100" for="email">Mail *</label>
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-					<input id="email" class="input100" type="text" name="email" placeholder="Eg. example@email.com">
+					<input id="email" class="input100" type="text" name="email" placeholder="Ej. ejemplo@email.com">
 
 				</div>
 
@@ -118,7 +120,7 @@
 
 				<div class="container-contact100-form-btn">
 					<button class="contact100-form-btn">
-						Enviar menasje
+						Enviar mensaje
 					</button>
 				</div>
 			</form>
