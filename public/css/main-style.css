@@ -18,6 +18,10 @@ body {
    opacity: 90%;
 }
 
+a.nav-link {
+   text-align: center;
+}
+
 .navbar-toggler {
    color: rgba(255,255,255,.5);
    border-color: rgba(255,255,255,.1);
@@ -30,6 +34,7 @@ body {
 footer {
    background: #034f84;
 }
+
 
 /*.navbar {
 background: white;

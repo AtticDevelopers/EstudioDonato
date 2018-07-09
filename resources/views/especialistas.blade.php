@@ -11,7 +11,7 @@
 <div class="container">
 
    <!-- Page Heading -->
-   <h1 class="my-4">Especialistas
+   <h1 class="my-4" id="seccion-areas">Especialistas
       <small>Clasificación por áreas</small>
    </h1>
 
@@ -27,7 +27,7 @@
                </h4>
                <div class="collapse" id="textoCivil">
                   <p class="card-text">Profesional: Donato, Ramiro</p>
-                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+                  <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
@@ -43,7 +43,7 @@
                </h4>
                <div class="collapse" id="textoComercial">
                   <p class="card-text">Profesional: Donato, Ramiro</p>
-                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+                  <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
@@ -59,7 +59,7 @@
                </h4>
                <div class="collapse" id="textoAdministrativo">
                   <p class="card-text">Profesional: Donato, Ramiro</p>
-                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+                  <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
@@ -75,7 +75,7 @@
                </h4>
                <div class="collapse" id="textoFamilia">
                   <p class="card-text">Profesional: Donato, Rocío</p>
-                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+                  <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
@@ -91,7 +91,7 @@
                </h4>
                <div class="collapse" id="textoLaboral">
                   <p class="card-text">Profesional: Donato, Rodrigo</p>
-                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+                  <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
@@ -107,7 +107,7 @@
                </h4>
                <div class="collapse" id="textoSucesiones">
                   <p class="card-text">Profesional: Donato, Ramiro</p>
-                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+                  <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
@@ -123,7 +123,7 @@
                </h4>
                <div class="collapse" id="textoPrevisional">
                   <p class="card-text">Profesional: Rodriguez, Flavia</p>
-                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+                  <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
@@ -139,7 +139,7 @@
                </h4>
                <div class="collapse" id="textoMediacionPrejudicial">
                   <p class="card-text">Profesionales: No es área específica</p>
-                  <a href="#"> <p class="contactar-profesional">Contactar</p></a>
+                  <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
          </div>
@@ -148,14 +148,11 @@
    <!-- /.row -->
 
    <!-- Introduction Row -->
-   <h1 class="my-4">Especialistas
+   <h1 class="my-4" id="seccion-especialistas">Especialistas
       <small>Clasificación por profesional</small>
    </h1>
    <!-- Team Members Row -->
    <div class="row">
-      <div class="col-lg-12">
-         <h2 class="my-4">El equipo</h2>
-      </div>
       <div class="col-lg-4 col-sm-6 text-center mb-4">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
          <h3>Donato, Ramiro
