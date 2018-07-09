@@ -3,75 +3,77 @@ body {
 }
 
 .navbar {
-	background: #034f84;
-	opacity: 0.96;
+   background: #034f84;
+   opacity: 0.96;
 }
 
 .nav-link, .navbar-brand {
-	color: white;
-	font-family: Verdana, sans-serif;
+   color: white;
+   font-family: Verdana, sans-serif;
 }
 
 .nav-link:hover {
-	color: black;
+   color: #034f84;
+   background: white;
+   opacity: 90%;
 }
 
 .navbar-toggler {
-	color: rgba(255,255,255,.5);
-	border-color: rgba(255,255,255,.1);
-	background-color: #034f84;
+   color: rgba(255,255,255,.5);
+   border-color: rgba(255,255,255,.1);
+   background-color: #034f84;
 }
 .navbar-toggler-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 footer {
-	background: #034f84;
+   background: #034f84;
 }
 
 /*.navbar {
-	background: white;
-	opacity: 0.85;
+background: white;
+opacity: 0.85;
 }
 
 .nav-link {
-	color: black;
-	font-family: Verdana, sans-serif;
-	font-size: 1vw;
-	margin-right: 30px;
+color: black;
+font-family: Verdana, sans-serif;
+font-size: 1vw;
+margin-right: 30px;
 }
 
 .nav-link:hover {
-	color: blue;
-	border-bottom: 3px solid blue;
-	padding-bottom: 5px; 
+color: blue;
+border-bottom: 3px solid blue;
+padding-bottom: 5px; 
 }
 
 #logo {
-	max-height: 70px;
-	max-width: 200px;
+max-height: 70px;
+max-width: 200px;
 }
 
 #footer {
-	background: black;
-	opacity: 0.9;
-	color: white;
-	height: 30px;
+background: black;
+opacity: 0.9;
+color: white;
+height: 30px;
 }
 
 .far, .fas {
-	margin: 5px;
+margin: 5px;
 }
 .copyright {
-	float: right;
+float: right;
 }
 
 .contacto {
-	float: left;
+float: left;
 }
 
 img {
-	height: 1080px;
-	width: 1900px;
+height: 1080px;
+width: 1900px;
 }*/
 
