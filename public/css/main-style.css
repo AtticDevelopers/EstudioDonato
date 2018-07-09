@@ -5,6 +5,7 @@ body {
 .navbar {
 	background: #034f84;
 	opacity: 0.96;
+  box-shadow: 0px 3px 3px 3px #88888894;
 }
 
 .nav-link, .navbar-brand {
@@ -44,7 +45,7 @@ footer {
 .nav-link:hover {
 	color: blue;
 	border-bottom: 3px solid blue;
-	padding-bottom: 5px; 
+	padding-bottom: 5px;
 }
 
 #logo {
@@ -74,4 +75,3 @@ img {
 	height: 1080px;
 	width: 1900px;
 }*/
-
