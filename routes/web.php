@@ -26,3 +26,15 @@ Route::get('/especialistas', function () {
 Route::get('/historia', function () {
     return view('historia');
 });
+
+Route::get('/historia/inicio', function () {
+    return view('historia-extendida-inicio');
+});
+
+Route::get('/historia/evolucion', function () {
+    return view('historia-extendida-evolucion');
+});
+
+Route::get('/historia/actualidad', function () {
+    return view('historia-extendida-hoy');
+});

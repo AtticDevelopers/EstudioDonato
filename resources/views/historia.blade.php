@@ -5,51 +5,84 @@
 @endsection
 
 @section('body')
+<div class="container">
 
-  <!-- Page Content -->
-    <div class="container">
+   <!-- Page Heading -->
+   <h1 class="my-4">Historia 
+      <small>Frase representativa del estudio</small>
+   </h1>
 
-      <!-- Page Heading -->
-      <h1 class="my-4">Nuestra historia
-      </h1>
-
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <href="#"><img class="card-img-top" src="images/law3.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <h2>El comienzo</h2>
-              </h4>
-              <p class="card-text">La primera oficina la abrio ... en el año ... blablablablablablablablablablablablablablablablablablablablablablablablablablablablablablablabla</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/law2.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <h2>Pasaron los años</h2>
-              </h4>
-              <p class="card-text">............................................................................................................................................................................................................................................................................................................................................................</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/law4.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <h2>El estudio hoy</h2>
-              </h4>
-              <p class="card-text">Contar algo</p>
-            </div>
-          </div>
-        </div>
+   <!-- Project One -->
+   <div class="row">
+      <div class="col-md-7">
+         <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+         </a>
       </div>
-      <!-- /.row -->
+      <div class="col-md-5">
+         <h3>Inicio</h3>
+         <p>Texto resumido que hable acerca de cómo surgió el estudio [Con leer más se iría al documento entero]</p>
+         <a class="btn btn-primary" href="./historia/inicio">Leer más</a>
+      </div>
+   </div>
+   <!-- /.row -->
 
-    </div>
-    <!-- /.container -->
-  </endsection>
+   <hr>
+
+   <!-- Project Two -->
+   <div class="row">
+      <div class="col-md-7">
+         <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+         </a>
+      </div>
+      <div class="col-md-5">
+         <h3>Evolución</h3>
+         <p>Texto resumido que hable de cómo fue evolucionando el estudio a través de los años [Con leer más se iría al documento entero]</p>
+         <a class="btn btn-primary" href="./historia/evolucion">Leer más</a>
+      </div>
+   </div>
+   <!-- /.row -->
+
+   <hr>
+
+   <!-- Project Three -->
+   <div class="row">
+      <div class="col-md-7">
+         <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+         </a>
+      </div>
+      <div class="col-md-5">
+         <h3>El estudio hoy</h3>
+         <p>Texto resumido que hable de cómo se encuentra el estudio en la actualidad [Con leer más se iría al documento entero]</p>
+         <a class="btn btn-primary" href="./historia/actualidad">Leer más</a>
+      </div>
+   </div>
+   <!-- /.row -->
+
+   <hr>
+
+   <!-- Project Four -->
+   <div class="row">
+
+      <div class="col-md-7">
+         <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+         </a>
+      </div>
+      <div class="col-md-5">
+         <h3>Otra sección de interés</h3>
+         <p>[Con leer más se iría al documento entero]</p>
+         <a class="btn btn-primary" href="">Leer más</a>
+      </div>
+   </div>
+   <!-- /.row -->
+
+   <hr>
+
+
+</div>
+<!-- /.container -->
+
+@endsection
