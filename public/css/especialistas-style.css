@@ -1,5 +1,6 @@
 body {
    scroll-behavior: smooth;
+   overflow-y: scroll;
 }
 
 .portfolio-item {
@@ -11,9 +12,20 @@ h4.card-title {
    margin-bottom: 0px;
 }
 
+p.contactar-profesional {
+   text-align: center;
+   background: black;
+   margin: auto;
+   display: block;
+   color: white solid;
+   padding: 5px;
+   font-weight: 300;
+   font-size-adjust: auto;
+}
+
 p.card-text {
-    background-color: rgba(220,220,220,0.6);
-    padding: 10px;
+   background-color: rgba(220,220,220,0.6);
+   padding: 10px;
 }
 
 .btn.btn-primary.btn-area, .btn.btn-primary.btn-contactar-profesional{

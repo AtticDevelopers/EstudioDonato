@@ -33,7 +33,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-ramiro"> <p class="contactar-profesional">Contactar especialista</p></a>
             </div>
          </div>
 
@@ -55,7 +55,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-ramiro"> <p class="contactar-profesional">Contactar especialista</p></a>
             </div>
 
          </div>
@@ -76,7 +76,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-ramiro"> <p class="contactar-profesional">Contactar especialista</p></a>
             </div>
          </div>
       </div>
@@ -96,7 +96,7 @@
                   <br>
                   Especialista: Donato, Rocío
                </p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-rocio"> <p class="contactar-profesional">Contactar especialista</p></a>
             </div>
          </div>
       </div>
@@ -116,7 +116,7 @@
                   <br>
                   Especialista: Donato, Rodrigo
                </p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-rodrigo"> <p class="contactar-profesional">Contactar especialista</p></a>
             </div>
          </div>
       </div>
@@ -136,7 +136,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-ramiro"> <p class="contactar-profesional">Contactar especialista</p></a>
             </div>
          </div>
       </div>
@@ -156,7 +156,7 @@
                   <br>
                   Especialista: Rodriguez, Flavia
                </p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#rodriguez-flavia"> <p class="contactar-profesional">Contactar especialista</p></a>
             </div>
          </div>
       </div>
@@ -188,52 +188,52 @@
    </h1>
    <!-- Team Members Row -->
    <div class="row">
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
+      <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-ramiro">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
          <h3>Donato, Ramiro
-            <small>Job Title</small>
+            <small>Rol</small>
          </h3>
-         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional responsive" type="button">
             Contactar
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
+      <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-rodrigo">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
          <h3>Donato, Rodrigo
-            <small>Job Title</small>
+            <small>Rol</small>
          </h3>
-         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
             Contactar
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
+      <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-rocio">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
          <h3>Donato, Rocío
-            <small>Job Title</small>
+            <small>Rol</small>
          </h3>
-         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
             Contactar
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
+      <div class="col-lg-4 col-sm-6 text-center mb-4" id="rodriguez-flavia">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
          <h3>Rodriguez, Flavia
-            <small>Job Title</small>
+            <small>Rol</small>
          </h3>
-         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
             Contactar
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6 text-center mb-4">
+      <div class="col-lg-4 col-sm-6 text-center mb-4" id="mancini-lautaro">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="https://scontent.fbhi1-1.fna.fbcdn.net/v/t1.0-9/13902796_10210214959111016_4547269968658509038_n.jpg?_nc_cat=0&oh=7231f6adb159b6319f9ef9d53831b31b&oe=5BE2F2DD" alt="">
          <h3>Mancini, Lautaro 
-            <small>Demonio</small>
+            <small>Rol</small>
          </h3>
-         <p>Fortnite Gammer - PS4 - Pro - Streamer on Youtube and Twitch</p>
+         <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
             Contactar
          </div>
@@ -241,9 +241,9 @@
       <div class="col-lg-4 col-sm-6 text-center mb-4">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
          <h3>Juan Perez
-            <small>Job Title</small>
+            <small>Rol</small>
          </h3>
-         <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+         <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
             Contactar
          </div>
