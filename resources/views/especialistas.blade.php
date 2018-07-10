@@ -17,16 +17,21 @@
 
    <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
-         <div class="card h-200">
-            <img class="card-img-top" src="images/law1.jpg" alt="">
+         <div class="card h-100">
+            <img class="card-img-top" src="" alt="">
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoCivil" aria-expanded="false" aria-controls="textoCivil">
-                     Civil
-                  </div>
+                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoCivil" aria-expanded="false" aria-controls="textoCivil">
+                     <i class="fa fa-fw fa-chevron-down"></i>
+                     <i class="fa fa-fw fa-chevron-right"></i>Civil
+                  </div> 
                </h4>
                <div class="collapse" id="textoCivil">
-                  <p class="card-text">Profesional: Donato, Ramiro</p>
+                  <p class="card-text">
+                     Es la rama del derecho que versa sobre los vínculos personales y/ó patrimoniales entre particulares, contemplando sus derechos y obligaciones. Abarca las situaciones de la más variada índole, incluyendo desde un contrato de locación de una propiedad a la responsabilidad que se origine con motivo de un accidente de tránsito.
+                     <br>
+                     Profesional: Donato, Ramiro
+                  </p>
                   <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
@@ -34,15 +39,20 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <img class="card-img-top" src="images/law2.jpg" alt="">
+            <img class="card-img-top" src="" alt="">
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoComercial" aria-expanded="false" aria-controls="textoComercial">
-                     Comercial
+                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoComercial" aria-expanded="false" aria-controls="textoComercial">
+                     <i class="fa fa-fw fa-chevron-down"></i>
+                     <i class="fa fa-fw fa-chevron-right"></i> Comercial
                   </div>
                </h4>
                <div class="collapse" id="textoComercial">
-                  <p class="card-text">Profesional: Donato, Ramiro</p>
+                  <p class="card-text">
+                     Es la rama del derecho que se ocupa del ejercicio profesional del comercio, los actos y las relaciones jurídicas derivadas de la realización de aquél.
+                     <br>
+                     Profesional: Donato, Ramiro
+                  </p>
                   <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
@@ -50,15 +60,20 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <img class="card-img-top" src="images/law3.jpg" alt=""> 
+            <img class="card-img-top" src="" alt=""> 
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoAdministrativo" aria-expanded="false" aria-controls="textoAdministrativo">
-                     Administrativo
+                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoAdministrativo" aria-expanded="false" aria-controls="textoAdministrativo">
+                     <i class="fa fa-fw fa-chevron-down"></i>
+                     <i class="fa fa-fw fa-chevron-right"></i>Administrativo
                   </div>
                </h4>
                <div class="collapse" id="textoAdministrativo">
-                  <p class="card-text">Profesional: Donato, Ramiro</p>
+                  <p class="card-text">
+                     Es la rama del derecho que rige la relación entre los particulares y el Estado en sus diversas manifestaciones (Nacional, Provincial y Municipal).
+                     <br>
+                     Profesional: Donato, Ramiro
+                  </p>
                   <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
@@ -66,15 +81,20 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a><img class="card-img-top" src="images/law4.jpg" alt=""></a>
+            <a><img class="card-img-top" src="" alt=""></a>
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoFamilia" aria-expanded="false" aria-controls="textoFamilia">
-                     Familia
+                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoFamilia" aria-expanded="false" aria-controls="textoFamilia">
+                     <i class="fa fa-fw fa-chevron-down"></i>
+                     <i class="fa fa-fw fa-chevron-right"></i>Familia
                   </div>
                </h4>
                <div class="collapse" id="textoFamilia">
-                  <p class="card-text">Profesional: Donato, Rocío</p>
+                  <p class="card-text">
+                     Es la rama del derecho que regula las relaciones personales y patrimoniales de los integrantes de la familia, entre sí y respecto de terceros. Por ejemplo, divorcios, cuestiones alimentarias, de comunicación con los hijos, entre otras.
+                     <br>
+                     Profesional: Donato, Rocío
+                  </p>
                   <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
@@ -82,15 +102,20 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="images/law1.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="" alt=""></a>
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoLaboral" aria-expanded="false" aria-controls="textoLaboral">
-                     Laboral
+                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoLaboral" aria-expanded="false" aria-controls="textoLaboral">
+                     <i class="fa fa-fw fa-chevron-down"></i>
+                     <i class="fa fa-fw fa-chevron-right"></i>Laboral
                   </div>
                </h4>
                <div class="collapse" id="textoLaboral">
-                  <p class="card-text">Profesional: Donato, Rodrigo</p>
+                  <p class="card-text">
+                     Es la rama del derecho que se encarga de regir las relaciones jurídicas entre empleadores y empleados y los eventuales conflictos que pudieran surgir entre ellos. Específicamente, cuestiones relativas a contrataciones de personal, despidos, licencias, etc.
+                     <br>
+                     Profesional: Donato, Rodrigo
+                  </p>
                   <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
@@ -98,15 +123,20 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a><img class="card-img-top" src="images/law2.jpg" alt=""></a>
+            <a><img class="card-img-top" src="images/" alt=""></a>
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoSucesiones" aria-expanded="false" aria-controls="textoSucesiones">
-                     Sucesiones
+                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoSucesiones" aria-expanded="false" aria-controls="textoSucesiones">
+                     <i class="fa fa-fw fa-chevron-down"></i>
+                     <i class="fa fa-fw fa-chevron-right"></i>Sucesiones
                   </div>
                </h4>
                <div class="collapse" id="textoSucesiones">
-                  <p class="card-text">Profesional: Donato, Ramiro</p>
+                  <p class="card-text">
+                     Es la rama del derecho que versa sobre las relaciones jurídicas y las situaciones con posterioridad al fallecimiento de las personas y/ó previendo éste (Verbigracia: procesos sucesorios, exista ó no testamento).
+                     <br>
+                     Profesional: Donato, Ramiro
+                  </p>
                   <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
@@ -114,15 +144,20 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a><img class="card-img-top" src="images/law3.jpg" alt=""></a>
+            <a><img class="card-img-top" src="" alt=""></a>
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoPrevisional" aria-expanded="false" aria-controls="textoPrevisional">
-                     Previsional
+                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoPrevisional" aria-expanded="false" aria-controls="textoPrevisional">
+                     <i class="fa fa-fw fa-chevron-down"></i>
+                     <i class="fa fa-fw fa-chevron-right"></i>Previsional
                   </div>
                </h4>
                <div class="collapse" id="textoPrevisional">
-                  <p class="card-text">Profesional: Rodriguez, Flavia</p>
+                  <p class="card-text">
+                     Es la rama del derecho que regula lo atinente a las jubilaciones, pensiones y restantes prestaciones derivadas de la mayor edad de las personas ó de situaciones específicas que afecten a las mismas.
+                     <br>
+                     Profesional: Rodriguez, Flavia
+                  </p>
                   <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>
@@ -130,15 +165,19 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a><img class="card-img-top" src="images/law4.jpg" alt=""></a>
+            <a><img class="card-img-top" src="" alt=""></a>
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area" type="button" data-toggle="collapse" data-target="#textoMediacionPrejudicial" aria-expanded="false" aria-controls="textoMediacionPrejudicial">
-                     Mediacion Prejudicial
+                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoMediacionPrejudicial" aria-expanded="false" aria-controls="textoMediacionPrejudicial">
+                     <i class="fa fa-fw fa-chevron-down"></i>
+                     <i class="fa fa-fw fa-chevron-right"></i>Mediacion Prejudicial
                   </div>
                </h4>
                <div class="collapse" id="textoMediacionPrejudicial">
-                  <p class="card-text">Profesionales: No es área específica</p>
+                  <p class="card-text">
+                     Es un proceso informal, confidencial, autocompositivo y que resulta necesario transitar con anterioridad a la apertura de la instancia judicial en los casos en que la legislación aplicable así lo disponga (ley 13.951).
+                     <br>
+                     Profesionales: No es área específica</p>
                   <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar</p></a>
                </div>
             </div>

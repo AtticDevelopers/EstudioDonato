@@ -1,5 +1,5 @@
 body {
-	scroll-behavior: smooth;
+   scroll-behavior: smooth;
 }
 
 .portfolio-item {
@@ -19,6 +19,23 @@ img.rounded-circle.img-fluid.d-block.mx-auto.responsive{
    height: auto;
    max-height: 200px;
    max-width: 200px;
+}
+
+.btn.btn-primary.btn-area.collapsed .fa-chevron-down, .btn.btn-primary.btn-area .fa-chevron-right{
+   display: none;
+}
+
+.btn.btn-primary.btn-area.collapsed .fa-chevron-right, .btn.btn-primary.btn-area .fa-chevron-down{
+   display: inline-block;
+}
+
+i.fa {
+   cursor: pointer;
+   margin-right: 5px;
+}
+
+.collapsed ~ .panel-body {
+   padding: 0;
 }
 
 
