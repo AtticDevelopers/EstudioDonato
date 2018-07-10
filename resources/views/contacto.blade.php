@@ -84,18 +84,19 @@
 				</div>
 			</div>
 
-			<form class="contact100-form validate-form">
+			<form class="contact100-form validate-form" method="POST" action="./contacto">
+				{{ csrf_field() }}
 				<span class="contact100-form-title">
 					Contactanos
 				</span>
 
 				<label class="label-input100" for="first-name">Dejanos tu nombre *</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-					<input id="first-name" class="input100" type="text" name="first-name" placeholder="Nombre">
+					<input id="first-name" class="input100" type="text" name="nombre" placeholder="Nombre">
 
 				</div>
 				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-					<input class="input100" type="text" name="last-name" placeholder="Apellido">
+					<input class="input100" type="text" name="apellido" placeholder="Apellido">
 
 				</div>
 
@@ -107,13 +108,13 @@
 
 				<label class="label-input100" for="phone">Ingrese numero de telefono</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="phone" placeholder="">
+					<input id="phone" class="input100" type="text" name="telefono" placeholder="">
 
 				</div>
 
 				<label class="label-input100" for="message">Mensaje *</label>
 				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<textarea id="message" class="input100" name="message" placeholder="Dejanos tu mensaje"></textarea>
+					<textarea id="message" class="input100" name="mensaje" placeholder="Dejanos tu mensaje"></textarea>
 
 				</div>
 
