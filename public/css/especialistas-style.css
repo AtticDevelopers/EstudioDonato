@@ -3,7 +3,17 @@ body {
 }
 
 .portfolio-item {
-   margin-bottom: 30px;
+   padding: 0px;
+   margin: 0px;
+}
+
+h4.card-title {
+   margin-bottom: 0px;
+}
+
+p.card-text {
+    background-color: rgba(220,220,220,0.6);
+    padding: 10px;
 }
 
 .btn.btn-primary.btn-area, .btn.btn-primary.btn-contactar-profesional{
@@ -37,6 +47,7 @@ i.fa {
 .collapsed ~ .panel-body {
    padding: 0;
 }
+
 
 
 
