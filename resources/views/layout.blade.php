@@ -29,18 +29,18 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                     <a class="nav-link" href="./"><i class="fas fa-home"></i> Inicio
+                     <a class="nav-link" href="./" title="Página principal"><i class="fas fa-home"></i> Inicio
                         <span class="sr-only">(current)</span>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="./historia"><i class="fas fa-gavel"></i> Estudio</a>
+                     <a class="nav-link" href="./historia" title="Información sobre la historia de nuestro estudio"><i class="fas fa-gavel"></i> Estudio</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="./especialistas"><i class="fas fa-users"></i> Servicios</a>
+                     <a class="nav-link" href="./especialistas" title="Todos nuestros servicios y especialistas"><i class="fas fa-users"></i> Servicios</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="./contacto"><i class="far fa-envelope"></i> Contacto</a>
+                     <a class="nav-link" href="./contacto" title="Medios de contacto"><i class="far fa-envelope"></i> Contacto</a>
                   </li>
                </ul>
             </div>
@@ -50,16 +50,16 @@
       @yield('body')
 
       <!-- Footer -->
-      <footer class="py-5">
+      <footer class="py-2">
          <div class="container row">
             <div class="col-sm-8 m-0 text-white">
-               <p>Estudio Donato - Copyright <i class="far fa-copyright"></i> 2018</p>
-               <p><i class="fas fa-code"></i> Attic Developers</p>
-            </div>
-            <div class="col-sm-3 m-0 text-white text-left">
                <p><i class="fas fa-map-marker-alt"></i> España 431</p>
                <p><i class="fas fa-phone"></i> 4818932</p>
                <p><i class="far fa-envelope"></i> contacto@estudiodonato.com</p>
+            </div>
+            <div class="col-sm-4 m-0 text-white text-right">
+               <p>Estudio Donato - Copyright <i class="far fa-copyright"></i> 2018</p>
+               <p>Design & Dev. <i class="fas fa-code"></i> Attic Developers</p>
             </div>
          </div>
          <!-- /.container -->
