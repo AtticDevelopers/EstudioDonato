@@ -8,9 +8,6 @@ use Session;
 
 class ContactController extends Controller
 {
-    public function getContactView(){
-      return view('contacto');
-    }
 
     public function postContact(Request $request){
       $this->validate($request, ['email' => 'required|email']);
@@ -32,5 +29,9 @@ class ContactController extends Controller
       Session::flash('success','Su mail ha sido enviado');
 
       return redirect('/contacto');
+    }
+    
+    public function getContactView(){
+      return view('contacto');
     }
 }
