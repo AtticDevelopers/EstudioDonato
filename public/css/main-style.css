@@ -3,14 +3,9 @@ body {
 }
 
 .navbar {
-<<<<<<< HEAD
 	background: #034f84;
 	opacity: 0.96;
-  box-shadow: 0px 3px 3px 3px #88888894;
-=======
-   background: #034f84;
-   opacity: 0.96;
->>>>>>> e5274959b3ad3519cafaa278e223fa8943584578
+  	box-shadow: 0px 3px 3px 3px #88888894;
 }
 
 .nav-link, .navbar-brand {

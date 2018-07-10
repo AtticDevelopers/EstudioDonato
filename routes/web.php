@@ -11,29 +11,29 @@
 |
 */
 
-Route::get('/', function () {
-    return view('inicio');
-});
+// Inicio
+Route::get('/', 'InicioController@getInicioView');
+
+// Historia
+
+Route::get('/historia','HistoriaController@getHistoriaView');
+
+Route::get('/historia/inicio', 'HistoriaController@getHistoriaInicioView');
+
+Route::get('/historia/evolucion', 'HistoriaController@getHistoriaEvolucionView');
+
+Route::get('/historia/actualidad', 'HistoriaController@getHistoriaActualidadView');
+
+//Especialistas
+
+Route::get('/especialistas', 'EspecialistasController@getEspecialistasView');
+
+//Contacto
 
 Route::get('/contacto', 'ContactController@getContactView');
+
 Route::post('/contacto', 'ContactController@postContact');
 
-Route::get('/especialistas', function () {
-    return view('especialistas');
-});
 
-Route::get('/historia', function () {
-    return view('historia');
-});
 
-Route::get('/historia/inicio', function () {
-    return view('historia-extendida-inicio');
-});
 
-Route::get('/historia/evolucion', function () {
-    return view('historia-extendida-evolucion');
-});
-
-Route::get('/historia/actualidad', function () {
-    return view('historia-extendida-hoy');
-});
