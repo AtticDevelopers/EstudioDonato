@@ -2,6 +2,10 @@ body {
    padding-top: 56px;
 }
 
+.container {
+   margin: auto;
+}
+
 .navbar {
 	background: #034f84;
 	opacity: 0.96;
