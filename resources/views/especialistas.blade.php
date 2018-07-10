@@ -81,7 +81,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a><img class="card-img-top" src="" alt=""></a>
+            <img class="card-img-top" src="" alt="">
             <div class="card-body">
                <h4 class="card-title">
                   <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoFamilia" aria-expanded="false" aria-controls="textoFamilia">
@@ -102,7 +102,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="" alt=""></a>
+            <img class="card-img-top" src="" alt="">
             <div class="card-body">
                <h4 class="card-title">
                   <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoLaboral" aria-expanded="false" aria-controls="textoLaboral">
@@ -123,7 +123,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a><img class="card-img-top" src="images/" alt=""></a>
+            <img class="card-img-top" src="images/" alt="">
             <div class="card-body">
                <h4 class="card-title">
                   <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoSucesiones" aria-expanded="false" aria-controls="textoSucesiones">
@@ -144,7 +144,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a><img class="card-img-top" src="" alt=""></a>
+            <img class="card-img-top" src="" alt="">
             <div class="card-body">
                <h4 class="card-title">
                   <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoPrevisional" aria-expanded="false" aria-controls="textoPrevisional">
@@ -165,7 +165,7 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
          <div class="card h-100">
-            <a><img class="card-img-top" src="" alt=""></a>
+            <img class="card-img-top" src="" alt="">
             <div class="card-body">
                <h4 class="card-title">
                   <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoMediacionPrejudicial" aria-expanded="false" aria-controls="textoMediacionPrejudicial">
