@@ -22,7 +22,7 @@
       <div class="col-md-5">
          <h3>Inicio</h3>
          <p>Texto resumido que hable acerca de cómo surgió el estudio [Con leer más se iría al documento entero]</p>
-         <a class="btn btn-primary" href="./historia/inicio">Leer más</a>
+         <a class="btn btn-primary btn-leermas" href="./historia/inicio">Leer más</a>
       </div>
    </div>
    <!-- /.row -->
@@ -39,7 +39,7 @@
       <div class="col-md-5">
          <h3>Evolución</h3>
          <p>Texto resumido que hable de cómo fue evolucionando el estudio a través de los años [Con leer más se iría al documento entero]</p>
-         <a class="btn btn-primary" href="./historia/evolucion">Leer más</a>
+         <a class="btn btn-primary btn-leermas" href="./historia/evolucion">Leer más</a>
       </div>
    </div>
    <!-- /.row -->
@@ -56,7 +56,7 @@
       <div class="col-md-5">
          <h3>El estudio hoy</h3>
          <p>Texto resumido que hable de cómo se encuentra el estudio en la actualidad [Con leer más se iría al documento entero]</p>
-         <a class="btn btn-primary" href="./historia/actualidad">Leer más</a>
+         <a class="btn btn-primary btn-leermas" href="./historia/actualidad">Leer más</a>
       </div>
    </div>
    <!-- /.row -->
@@ -74,7 +74,7 @@
       <div class="col-md-5">
          <h3>Otra sección de interés</h3>
          <p>[Con leer más se iría al documento entero]</p>
-         <a class="btn btn-primary" href="">Leer más</a>
+         <a class="btn btn-primary btn-leermas" href="">Leer más</a>
       </div>
    </div>
    <!-- /.row -->

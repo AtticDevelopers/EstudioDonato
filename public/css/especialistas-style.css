@@ -17,6 +17,8 @@ body {
 img.rounded-circle.img-fluid.d-block.mx-auto.responsive{
    width: auto;
    height: auto;
+   max-height: 200px;
+   max-width: 200px;
 }
 
 
