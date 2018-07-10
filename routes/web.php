@@ -15,9 +15,8 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-Route::get('/contacto', function () {
-    return view('contacto');
-});
+Route::get('/contacto', 'ContactController@getContactView');
+Route::post('/contacto', 'ContactController@postContact');
 
 Route::get('/especialistas', function () {
     return view('especialistas');

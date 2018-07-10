@@ -25,13 +25,12 @@
 @section('body')
 	<!-- Page Content -->
 
-	<div>
-		<h3> Oficina Bahia Blanca </h3>
-	</div>
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
-
+				<span class="contact100-card-title">
+					Oficina Bahia Blanca
+				</span>
 				<div class="flex-w size1 p-b-47">
 					<div class="txt1 p-r-25">
 						<span class="lnr lnr-map-marker"></span>
@@ -87,7 +86,7 @@
 
 			<form class="contact100-form validate-form">
 				<span class="contact100-form-title">
-					Oficina Bahia Blanca
+					Contactanos
 				</span>
 
 				<label class="label-input100" for="first-name">Dejanos tu nombre *</label>

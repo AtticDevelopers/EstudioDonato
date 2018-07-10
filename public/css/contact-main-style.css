@@ -258,6 +258,17 @@ iframe {
   padding-bottom: 33px;
 }
 
+.contact100-card-title {
+  width: 100%;
+  display: block;
+  font-family: Poppins-Regular;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
 #map {
         width: 100%;
         height: 400px;
