@@ -17,10 +17,13 @@ p.contactar-profesional {
    background: black;
    margin: auto;
    display: block;
-   color: white solid;
+   color: white;
    padding: 5px;
    font-weight: 300;
-   font-size-adjust: auto;
+}
+
+p.contactar-profesional : hover{   
+   text-decoration: none;
 }
 
 p.card-text {
@@ -58,6 +61,10 @@ i.fa {
 
 .collapsed ~ .panel-body {
    padding: 0;
+}
+
+.rol-especialista, .nombre-especialista{
+   text-align: center;
 }
 
 

@@ -33,7 +33,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#donato-ramiro"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-ramiro"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
             </div>
          </div>
 
@@ -55,7 +55,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#donato-ramiro"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-ramiro"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
             </div>
 
          </div>
@@ -76,7 +76,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#donato-ramiro"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-ramiro"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
             </div>
          </div>
       </div>
@@ -96,7 +96,7 @@
                   <br>
                   Especialista: Donato, Rocío
                </p>
-               <a href="#donato-rocio"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-rocio"> <p class="contactar-profesional">¿Quién es Donato, Rocío?</p></a>
             </div>
          </div>
       </div>
@@ -116,7 +116,7 @@
                   <br>
                   Especialista: Donato, Rodrigo
                </p>
-               <a href="#donato-rodrigo"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-rodrigo"> <p class="contactar-profesional">¿Quién es Donato, Rodrigo?</p></a>
             </div>
          </div>
       </div>
@@ -136,7 +136,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#donato-ramiro"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#donato-ramiro"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
             </div>
          </div>
       </div>
@@ -156,7 +156,7 @@
                   <br>
                   Especialista: Rodriguez, Flavia
                </p>
-               <a href="#rodriguez-flavia"> <p class="contactar-profesional">Contactar especialista</p></a>
+               <a href="#rodriguez-flavia"> <p class="contactar-profesional">¿Quién es Rodriguez, Flavia?</p></a>
             </div>
          </div>
       </div>
@@ -174,8 +174,8 @@
                   Es un proceso informal, confidencial, autocompositivo y que resulta necesario transitar con anterioridad a la apertura de la instancia judicial en los casos en que la legislación aplicable así lo disponga (ley 13.951).
                   <br>
                   <br>
-                  Profesionales: No es área específica</p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Contactar especialistas</p></a>
+                  Especialistas: No es área específica</p>
+               <a href="#seccion-especialistas"> <p class="contactar-profesional">Conocer especialistas</p></a>
             </div>
          </div>
       </div>
@@ -190,8 +190,9 @@
    <div class="row">
       <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-ramiro">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
-         <h3>Donato, Ramiro
-            <small>Rol</small>
+         <h3 class="nombre-especialista">Donato, Ramiro
+           <br>
+            <small class="rol-especialista">Rol</small>
          </h3>
          <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional responsive" type="button">
@@ -200,8 +201,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-rodrigo">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
-         <h3>Donato, Rodrigo
-            <small>Rol</small>
+         <h3 class="nombre-especialista">Donato, Rodrigo
+           <br>
+            <small class="rol-especialista">Rol</small>
          </h3>
          <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
@@ -210,8 +212,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-rocio">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
-         <h3>Donato, Rocío
-            <small>Rol</small>
+         <h3 class="nombre-especialista">Donato, Rocio
+           <br>
+            <small class="rol-especialista">Rol</small>
          </h3>
          <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
@@ -220,8 +223,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 text-center mb-4" id="rodriguez-flavia">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
-         <h3>Rodriguez, Flavia
-            <small>Rol</small>
+         <h3 class="nombre-especialista">Rodriguez Flavia
+           <br>
+            <small class="rol-especialista">Rol</small>
          </h3>
          <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
@@ -230,8 +234,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 text-center mb-4" id="mancini-lautaro">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="https://scontent.fbhi1-1.fna.fbcdn.net/v/t1.0-9/13902796_10210214959111016_4547269968658509038_n.jpg?_nc_cat=0&oh=7231f6adb159b6319f9ef9d53831b31b&oe=5BE2F2DD" alt="">
-         <h3>Mancini, Lautaro 
-            <small>Rol</small>
+         <h3 class="nombre-especialista"> Mancini, Lautaro
+           <br>
+            <small class="rol-especialista">Rol</small>
          </h3>
          <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
@@ -240,8 +245,9 @@
       </div>
       <div class="col-lg-4 col-sm-6 text-center mb-4">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
-         <h3>Juan Perez
-            <small>Rol</small>
+         <h3 class="nombre-especialista">Perez, Juan
+           <br>
+            <small class="rol-especialista">Rol</small>
          </h3>
          <p>Información acerca del profesional</p>
          <div class="btn btn-primary btn-contactar-profesional" type="button">
