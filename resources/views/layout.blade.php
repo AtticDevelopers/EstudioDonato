@@ -51,7 +51,7 @@
 
       <!-- Footer -->
       <footer class="py-2">
-         <div class="container row">
+         <div class="container row col-sm-12">
             <div class="col-sm-8 m-0 text-white">
                <p><i class="fas fa-map-marker-alt"></i> España 431</p>
                <p><i class="fas fa-phone"></i> 4818932</p>

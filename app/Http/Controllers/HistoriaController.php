@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class HistoriaController extends Controller
 {
     public function getHistoriaView(){
-      	return view('historia');
+      	return view('auxiliar');
     }
 
     public function getHistoriaInicioView(){
