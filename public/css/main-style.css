@@ -9,7 +9,7 @@ body {
 .navbar {
 	background: #034f84;
 	opacity: 0.96;
-  	box-shadow: 0px 3px 3px 3px #88888894;
+  box-shadow: 0px 3px 3px 3px #00000094;
 }
 
 .nav-link, .navbar-brand {

@@ -4,7 +4,6 @@
 }
 
 .carousel-item {
-
   background-position: 50% 50%;
   height: 100%;
 }
@@ -29,8 +28,8 @@ h3.card-title::after {
   border-color: #034f84;
   border-radius: 0 5% 5% 5%;
   border-width: thin thin thin thick;
+  box-shadow: -10px 10px 15px 3px #00000094;
   margin-bottom: 20px;
-  box-shadow: -10px 10px 15px 3px #88888894;
 }
 
 .tituloinicio , .copetetitulo {
