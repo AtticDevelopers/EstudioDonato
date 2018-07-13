@@ -21,16 +21,16 @@ class ContactController extends Controller
       );
 
       Mail::send('emails.contact',$data,function($message) use ($data) {
-        $message->from($data['email']);
-        $message->to('tomas.felder@gmail.com');
-        $message->subject('Email de la pagina web');
+        $message->from('atticdevelopers@gmail.com');
+        $message->to('atticdevelopers@gmail.com');
+        $message->subject('[estudiodonato.com]: Nuevo mensaje de '.$data['nombre'].' '.$data['apellido']);
       });
 
       Session::flash('success','Su mail ha sido enviado');
 
       return redirect('/contacto');
     }
-    
+
     public function getContactView(){
       return view('contacto');
     }

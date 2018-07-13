@@ -55,7 +55,7 @@ return [
     |
     */
 
-    'from' =>  ['address' =>'tomas.felder@gmail.com', 'name' => 'Email_Subject'],
+    'from' =>  ['address' =>'atticdevelopers@gmail.com', 'name' => 'Email_Subject'],
 
     /*
     |--------------------------------------------------------------------------
@@ -81,9 +81,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME','tomas.felder@gmail.com'),
+    'username' => env('MAIL_USERNAME','atticdevelopers@gmail.com'),
 
-    'password' => env('MAIL_PASSWORD','vbmjactlulpqinup'),
+    'password' => env('MAIL_PASSWORD','rbgkvakhhnyeftfh'),
 
     /*
     |--------------------------------------------------------------------------
