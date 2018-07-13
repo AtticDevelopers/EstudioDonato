@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class EspecialistasController extends Controller
 {
     public function getEspecialistasView(){
-      	return view('especialistas');
+      	return view('especialistas')->with(["page" => "especialistas"]);;
     }
 }

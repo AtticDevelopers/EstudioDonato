@@ -84,3 +84,8 @@ footer {
     text-align: center;
   }
 }
+.current{
+  color: #034f84;
+  background: white;
+  opacity: 90%;
+}
