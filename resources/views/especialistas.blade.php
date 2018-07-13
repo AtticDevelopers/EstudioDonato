@@ -24,7 +24,7 @@
                <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoCivil" aria-expanded="false" aria-controls="textoCivil">
                   <i class="fa fa-fw fa-chevron-down"></i>
                   <i class="fa fa-fw fa-chevron-right"></i>Civil
-               </div> 
+               </div>
             </h4>
             <div class="collapse" id="textoCivil">
                <p class="card-text">
@@ -33,7 +33,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#donato-ramiro"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
+               <a href="#donato-ramiro" style="text-decoration: none;"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
             </div>
          </div>
 
@@ -55,13 +55,13 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#donato-ramiro"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
+               <a href="#donato-ramiro" style="text-decoration: none;"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
             </div>
 
          </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
-         <img class="card-img-top" src="" alt=""> 
+         <img class="card-img-top" src="" alt="">
          <div class="card-body">
             <h4 class="card-title">
                <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#textoAdministrativo" aria-expanded="false" aria-controls="textoAdministrativo">
@@ -76,7 +76,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#donato-ramiro"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
+               <a href="#donato-ramiro" style="text-decoration: none;"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
             </div>
          </div>
       </div>
@@ -96,7 +96,7 @@
                   <br>
                   Especialista: Donato, Rocío
                </p>
-               <a href="#donato-rocio"> <p class="contactar-profesional">¿Quién es Donato, Rocío?</p></a>
+               <a href="#donato-rocio" style="text-decoration: none;"> <p class="contactar-profesional">¿Quién es Donato, Rocío?</p></a>
             </div>
          </div>
       </div>
@@ -116,7 +116,7 @@
                   <br>
                   Especialista: Donato, Rodrigo
                </p>
-               <a href="#donato-rodrigo"> <p class="contactar-profesional">¿Quién es Donato, Rodrigo?</p></a>
+               <a href="#donato-rodrigo" style="text-decoration: none;"> <p class="contactar-profesional">¿Quién es Donato, Rodrigo?</p></a>
             </div>
          </div>
       </div>
@@ -136,7 +136,7 @@
                   <br>
                   Especialista: Donato, Ramiro
                </p>
-               <a href="#donato-ramiro"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
+               <a href="#donato-ramiro" style="text-decoration: none;"> <p class="contactar-profesional">¿Quién es Donato, Ramiro?</p></a>
             </div>
          </div>
       </div>
@@ -156,7 +156,7 @@
                   <br>
                   Especialista: Rodriguez, Flavia
                </p>
-               <a href="#rodriguez-flavia"> <p class="contactar-profesional">¿Quién es Rodriguez, Flavia?</p></a>
+               <a href="#rodriguez-flavia" style="text-decoration: none;"> <p class="contactar-profesional">¿Quién es Rodriguez, Flavia?</p></a>
             </div>
          </div>
       </div>
@@ -175,7 +175,7 @@
                   <br>
                   <br>
                   Especialistas: No es área específica</p>
-               <a href="#seccion-especialistas"> <p class="contactar-profesional">Conocer especialistas</p></a>
+               <a href="#seccion-especialistas" style="text-decoration: none;"> <p class="contactar-profesional">Conocer especialistas</p></a>
             </div>
          </div>
       </div>
@@ -271,4 +271,3 @@
 <!-- /.container -->
 
 @endsection
-
