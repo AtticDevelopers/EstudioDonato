@@ -18,12 +18,6 @@ Route::get('/', 'InicioController@getInicioView');
 
 Route::get('/historia','HistoriaController@getHistoriaView');
 
-Route::get('/historia/inicio', 'HistoriaController@getHistoriaInicioView');
-
-Route::get('/historia/evolucion', 'HistoriaController@getHistoriaEvolucionView');
-
-Route::get('/historia/actualidad', 'HistoriaController@getHistoriaActualidadView');
-
 //Especialistas
 
 Route::get('/especialistas', 'EspecialistasController@getEspecialistasView');
