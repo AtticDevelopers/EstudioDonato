@@ -188,7 +188,18 @@
    </h1>
    <!-- Team Members Row -->
    <div class="row">
-      <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-ramiro">
+      @foreach($especialistas as $especialista)
+         <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-ramiro">
+            <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="Foto Abogado">
+            <h3 class="nombre-especialista">{{$especialista->apellido}}, {{$especialista->nombre}}
+              <br>
+              <small class="rol-especialista">Abogado</small>
+           </h3>
+           <p>{{$especialista->email}}</p>
+           <div class="btn btn-primary btn-contactar-profesional responsive" type="button">Contactar</div>
+         </div>
+      @endforeach
+      <!-- <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-ramiro">
          <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="">
          <h3 class="nombre-especialista">Donato, Ramiro
            <br>
@@ -253,7 +264,7 @@
          <div class="btn btn-primary btn-contactar-profesional" type="button">
             Contactar
          </div>
-      </div>
+      </div> -->
    </div>
 
 </div>
