@@ -9,9 +9,7 @@ use App\Http\Controllers\Helpers\Abogado;
 class EspecialistasController extends Controller
 {
     public function getEspecialistasView(){
-<<<<<<< HEAD
-      	return view('especialistas')->with(["page" => "especialistas"]);;
-=======
+      $especialistas = DB::select('SELECT * FROM especialistas');
     	$areasEspecialistas = DB::select('SELECT * FROM areasespecialistas NATURAL JOIN especialistas WHERE IDEspecialista = id');
     	$arreglo = array();
     	foreach($areasEspecialistas as &$area){
@@ -32,7 +30,6 @@ class EspecialistasController extends Controller
     		}
     		$arreglo[$area->nombreArea] = $arreglo_abogados;
     	}
-      	return view('especialistas', ['especialistas' => $especialistas, 'areas' => $arreglo]);
->>>>>>> cda289b7cf13fa04e4239f33a55ecf3c0227d2c0
+      	return view('especialistas', ['especialistas' => $especialistas, 'areas' => $arreglo,'page' => 'especialistas']);
     }
 }
