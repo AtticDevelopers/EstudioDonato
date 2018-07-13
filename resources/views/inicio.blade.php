@@ -69,7 +69,7 @@
 
 <div class="container">
    <div class="row">
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
          <div class="card servicio">
             <div class="card-body">
                <h3 class="card-title">Civil</h3>
@@ -79,7 +79,7 @@
             </div>
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
          <div class="card servicio">
             <div class="card-body">
                <h3 class="card-title">Comercial</h3>
@@ -90,7 +90,7 @@
             </div>
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
          <div class="card servicio">
             <div class="card-body">
                <h3 class="card-title">Administrativo</h3>
@@ -101,7 +101,7 @@
             </div>
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
          <div class="card servicio">
             <div class="card-body">
                <h3 class="card-title">Familia</h3>
@@ -112,7 +112,7 @@
             </div>
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
          <div class="card servicio">
             <div class="card-body">
                <h3 class="card-title">Laboral</h3>
@@ -123,7 +123,7 @@
             </div>
          </div>
       </div>
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
          <div class="card servicio">
             <div class="card-body">
                <h3 class="card-title">Sucesiones</h3>
@@ -135,7 +135,7 @@
          </div>
       </div>
 
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
          <div class="card servicio">
             <div class="card-body">
                <h3 class="card-title">Previsional</h3>
@@ -147,7 +147,7 @@
          </div>
       </div>
 
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
          <div class="card servicio">
             <div class="card-body">
                <h3 class="card-title">Mediación Prejudicial</h3>
