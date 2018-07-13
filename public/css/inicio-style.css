@@ -24,6 +24,7 @@ h3.card-title::after {
 }
 
 .card.servicio {
+  height: 90%;
   margin: 0 auto;
   border-color: #034f84;
   border-radius: 0 5% 5% 5%;
@@ -36,6 +37,12 @@ h3.card-title::after {
     text-align: center;
 }
 
+.card-body {
+  position: relative;
+}
+
 .card-link {
-  float: right;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
