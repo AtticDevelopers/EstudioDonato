@@ -17,6 +17,9 @@
 
       @yield('style')
 
+      <!-- Scroll Smooth -->
+      <script src="js/smooth-scroll.min.js"></script>
+
    </head>
    <body>
       <!-- Navigation -->
@@ -51,13 +54,13 @@
 
       <!-- Footer -->
       <footer class="py-2">
-         <div class="container row col-sm-12">
-            <div class="col-sm-8 m-0 text-white">
+         <div class="container row col-sm-12 text-white">
+            <div class="col-sm-6 m-0 izq-footer">
                <p><i class="fas fa-map-marker-alt"></i> España 431</p>
                <p><i class="fas fa-phone"></i> 4818932</p>
                <p><i class="far fa-envelope"></i> contacto@estudiodonato.com</p>
             </div>
-            <div class="col-sm-4 m-0 text-white text-right">
+            <div class="col-sm-6 m-0 der-footer">
                <p>Estudio Donato - Copyright <i class="far fa-copyright"></i> 2018</p>
                <p>Design & Dev. <i class="fas fa-code"></i> Attic Developers</p>
             </div>
@@ -68,6 +71,11 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-
+      <script>
+         var scroll = new SmoothScroll('a[href*="#"]',{
+            header: '.navbar',
+            updateURL: false
+         });
+      </script>
    </body>
 </html>
