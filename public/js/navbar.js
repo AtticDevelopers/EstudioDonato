@@ -1,5 +1,6 @@
-$('.nav-item').click(function(){
-	console.log("HOLAAAAAAAAAAAAAAA");
-    $(".nav").find(".active").removeClass("active");
-   	$(this).addClass("active");
-});
+$(document).ready(function(){
+    $(".navbar > ul > li").click(function () {
+          $(this).siblings().removeClass("active");
+          $(this).addClass("active");
+    });
+})
