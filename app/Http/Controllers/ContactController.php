@@ -32,6 +32,6 @@ class ContactController extends Controller
     }
 
     public function getContactView(){
-      return view('contacto');
+      return view('contacto')->with(["page" => "contacto"]);;
     }
 }

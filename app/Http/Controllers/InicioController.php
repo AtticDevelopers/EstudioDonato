@@ -9,7 +9,7 @@ class InicioController extends Controller
 {
     public function getInicioView(){
     	$arregloAreas = DB::select('select nombre, descripcionCorta from areas');
-    	return view('inicio', ['areas' => $arregloAreas]);
+    	return view('inicio', ['areas' => $arregloAreas])->with(["page" => "home"]);
     }
 
 }

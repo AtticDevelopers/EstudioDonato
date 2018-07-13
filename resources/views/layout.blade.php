@@ -32,18 +32,18 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                     <a class="nav-link" href="./" title="Página principal"><i class="fas fa-home"></i> Inicio
+                     <a class="nav-link  {{$page == "home" ? "current" : ""}}" id="linkinicio" href="./" title="Página principal"><i class="fas fa-home"></i> Inicio
                         <span class="sr-only">(current)</span>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="./historia" title="Información sobre la historia de nuestro estudio"><i class="fas fa-gavel"></i> Estudio</a>
+                     <a class="nav-link {{$page == "historia" ? "current" : ""}}" id="linkhistoria" href="./historia" title="Información sobre la historia de nuestro estudio"><i class="fas fa-gavel"></i> Estudio</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="./especialistas" title="Todos nuestros servicios y especialistas"><i class="fas fa-users"></i> Servicios</a>
+                     <a class="nav-link {{$page == "especialistas" ? "current" : ""}}" id="linkespecialistas" href="./especialistas" title="Todos nuestros servicios y especialistas"><i class="fas fa-users"></i> Servicios</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="./contacto" title="Medios de contacto"><i class="far fa-envelope"></i> Contacto</a>
+                     <a class="nav-link {{$page == "contacto" ? "current" : ""}}" id="linkcontacto" href="./contacto" title="Medios de contacto"><i class="far fa-envelope"></i> Contacto</a>
                   </li>
                </ul>
             </div>
