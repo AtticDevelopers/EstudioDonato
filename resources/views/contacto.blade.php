@@ -105,7 +105,7 @@
 
 				<label class="label-input100" for="phone">Ingrese numero de telefono</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="telefono" placeholder="">
+					<input id="phone" class="input100" type="text" name="telefono" placeholder="Ej. 291 4123123">
 
 				</div>
 
