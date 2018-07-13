@@ -1,9 +1,5 @@
 @extends('layout')
 @section('style')
-  <!-- CSS contacto -->
-	<!--===============================================================================================-->
-		<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-	<!--===============================================================================================-->
 	<!--===============================================================================================-->
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 	<!--===============================================================================================-->
@@ -20,6 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 	<!--===============================================================================================-->
 		<link rel="stylesheet" type="text/css" href="css/contact-util-style.css">
+	<!--===============================================================================================-->
 		<link rel="stylesheet" type="text/css" href="css/contact-main-style.css">
 @endsection
 @section('body')
@@ -108,7 +105,7 @@
 
 				<label class="label-input100" for="phone">Ingrese numero de telefono</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="telefono" placeholder="">
+					<input id="phone" class="input100" type="text" name="telefono" placeholder="Ej. 291 4123123">
 
 				</div>
 

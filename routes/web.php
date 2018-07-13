@@ -28,6 +28,8 @@ Route::get('/contacto', 'ContactController@getContactView');
 
 Route::post('/contacto', 'ContactController@postContact');
 
+//Contacto personal
 
+Route::get('/contactopersonal','ContactoPersonalController@getContactoPersonalView');
 
-
+Route::post('/contactopersonal','ContactoPersonalController@postContactoPersonal');

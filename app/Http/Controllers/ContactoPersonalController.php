@@ -6,10 +6,11 @@ use Illuminate\Http\Request;
 use Mail;
 use Session;
 
-class ContactController extends Controller
+class ContactoPersonalController extends Controller
 {
 
-    public function postContact(Request $request){
+    public function postContactoPersonal(Request $request){
+      /*
       $this->validate($request, ['email' => 'required|email']);
 
       $data = array(
@@ -29,9 +30,10 @@ class ContactController extends Controller
       Session::flash('success','Su mail ha sido enviado');
 
       return redirect('/contacto');
+      */
     }
 
-    public function getContactView(){
-      return view('contacto')->with(["page" => "contacto"]);;
+    public function getContactoPersonalView(){
+      return view('contacto');
     }
 }

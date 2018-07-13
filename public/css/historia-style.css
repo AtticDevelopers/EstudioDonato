@@ -3,7 +3,7 @@ body {
    overflow-y: scroll;
    width: 100%;
    height: 100vh;
-   padding-top: 65px;
+   padding-top: 15px;
 }
 
 .my-4{
@@ -63,4 +63,45 @@ h3.seccion-titulo {
 img.img-fluid.rounded.mb-3.mb-md-0 {
    display: block;
    margin: 0 auto;
+   width: auto;
+   height: auto;
+}
+
+@media (max-width: 992px) {
+   body{
+      padding-top: 56px;
+   }
+   .navbar {
+      background: #034f84;
+      opacity: 0.96;
+      box-shadow: none;
+   }
+   ul.left-slider {
+      height: auto;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      margin-top: 98px;
+      padding-top: 0px;
+      background: #034f84;
+      list-style: none;
+      display:block;
+   }
+
+   ul.left-slider li{
+      display: inline-block;
+      width: 30%;
+      text-align: center;
+   }
+
+   ul.left-slider li a{ 
+      padding: 0px;
+      text-decoration: none;
+      height: auto;
+      width: 100%;      
+      color: white;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px; 
+   }
 }
