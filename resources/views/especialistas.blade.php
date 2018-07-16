@@ -196,7 +196,7 @@
               <small class="rol-especialista">Abogado</small>
            </h3>
            <p>{{$especialista->email}}</p>
-           <div class="btn btn-primary btn-contactar-profesional responsive" type="button">Contactar</div>
+           <a class="btn btn-primary btn-contactar-profesional responsive" id="{{$especialista->id}}" type="button" href="./contactopersonal?id={{$especialista->id}}">Contactar</a>
          </div>
       @endforeach
       <!-- <div class="col-lg-4 col-sm-6 text-center mb-4" id="donato-ramiro">
@@ -269,5 +269,4 @@
 
 </div>
 <!-- /.container -->
-
 @endsection

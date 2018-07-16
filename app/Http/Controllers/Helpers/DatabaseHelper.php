@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Helpers;
 
-use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
-class DatabaseHelper extends Controller
+class DatabaseHelper
 {
     public function selectAll($nombreTabla){
     	return DB::select('select * from '. $nombreTabla);
