@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\DB;
 class InicioController extends Controller
 {
     public function getInicioView(){
-    	$arregloAreas = DB::select('select nombreArea, descripcionCorta from areas');
+    	$arregloAreas = DB::select('SELECT nombreArea, descripcionCorta FROM areas ORDER BY nombreArea');
     	return view('inicio', ['areas' => $arregloAreas])->with(["page" => "home"]);
     }
 
