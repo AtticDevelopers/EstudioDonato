@@ -88,17 +88,17 @@
 				</span>
 
 				<label class="label-input100" for="first-name">Dejanos tu nombre *</label>
-				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Ingrese su nombre">
 					<input id="first-name" class="input100" type="text" name="nombre" placeholder="Nombre">
 
 				</div>
-				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Ingrese su apellido">
 					<input class="input100" type="text" name="apellido" placeholder="Apellido">
 
 				</div>
 
 				<label class="label-input100" for="email">Mail *</label>
-				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+				<div class="wrap-input100 validate-input" data-validate = "Ingrese un mail valido">
 					<input id="email" class="input100" type="text" name="email" placeholder="Ej. ejemplo@email.com">
 
 				</div>
@@ -110,8 +110,8 @@
 				</div>
 
 				<label class="label-input100" for="message">Mensaje *</label>
-				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<textarea id="message" class="input100" name="mensaje" placeholder="Dejanos tu mensaje"></textarea>
+				<div class="wrap-input100 validate-input" data-validate = "Se requiere un mensaje">
+					<textarea id="message" class="input100" name="mensaje" placeholder="Ingrese su mensaje"></textarea>
 
 				</div>
 
