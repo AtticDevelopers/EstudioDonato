@@ -10,7 +10,7 @@ class EspecialistasController extends Controller
 {
     public function getEspecialistasView(){
       $especialistas = DB::select('SELECT * FROM especialistas');
-    	$areasEspecialistas = DB::select('SELECT * FROM areasespecialistas NATURAL JOIN especialistas WHERE IDEspecialista = id');
+    	$areasEspecialistas = DB::select('SELECT * FROM areasespecialistas NATURAL JOIN especialistas WHERE IDEspecialista = IDEspecialista');
     	$arreglo = array();
     	foreach($areasEspecialistas as &$area){
 

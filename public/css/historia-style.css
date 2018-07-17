@@ -3,7 +3,6 @@ body {
    overflow-y: scroll;
    width: 100%;
    height: 100vh;
-   padding-top: 15px;
 }
 
 .my-4{
@@ -69,7 +68,7 @@ img.img-fluid.rounded.mb-3.mb-md-0 {
 
 @media (max-width: 992px) {
    body{
-      padding-top: 56px;
+      margin-top: 93px;
    }
    .navbar {
       background: #034f84;
@@ -82,7 +81,7 @@ img.img-fluid.rounded.mb-3.mb-md-0 {
       position: fixed;
       top: 0;
       left: 0;
-      margin-top: 98px;
+      margin-top: 56px;
       padding-top: 0px;
       background: #034f84;
       list-style: none;

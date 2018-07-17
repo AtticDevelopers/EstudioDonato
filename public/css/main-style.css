@@ -1,37 +1,37 @@
 @font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf');
+   font-family: Poppins-Regular;
+   src: url('../fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf');
+   font-family: Poppins-Medium;
+   src: url('../fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf');
+   font-family: Poppins-Bold;
+   src: url('../fonts/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
-  font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf');
+   font-family: Poppins-SemiBold;
+   src: url('../fonts/poppins/Poppins-SemiBold.ttf');
 }
 
 @font-face {
-  font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+   font-family: Montserrat-Bold;
+   src: url('../fonts/montserrat/Montserrat-Bold.ttf');
 }
 
 body {
-   padding-top: 56px;
+   margin-top: 56px;
    height: 100%;
    font-family: Poppins-Regular, sans-serif;
 }
 
 html {
-	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+   height: 100%;
+   font-family: Poppins-Regular, sans-serif;
 }
 
 .container {
@@ -39,10 +39,10 @@ html {
 }
 
 .navbar {
-  padding: 0px;
-	background: #034f84;
-	opacity: 0.96;
-  box-shadow: 0px 3px 3px 3px #00000094;
+   padding: 0px;
+   background: #034f84;
+   opacity: 0.96;
+   box-shadow: 0px 3px 3px 3px #00000094;
 }
 
 .nav-link, .navbar-brand {
@@ -50,11 +50,16 @@ html {
 }
 
 .navbar-brand{
-  padding: 0px;
+   padding: 0px;
 }
 
 #estudioDonatoImg{
+<<<<<<< HEAD
   margin: -6px 0px -10px 0px;
+=======
+   margin-bottom: -10px;
+   margin-top: -6px;
+>>>>>>> 9171b7ac1b72d8c10937d225d1259142bb843143
 }
 .nav-link:hover {
    color: #034f84;
@@ -80,20 +85,36 @@ footer {
 }
 
 .col-sm-6.m-0.izq-footer {
-    text-align: left;
+   text-align: left;
 }
 
 .col-sm-6.m-0.der-footer {
-    text-align: right;
+   text-align: right;
 }
 
 @media (max-width: 992px) {
-  .col-sm-6.m-0.izq-footer, .col-sm-6.m-0.der-footer{
-    text-align: center;
-  }
+   .col-sm-6.m-0.izq-footer, .col-sm-6.m-0.der-footer{
+      text-align: center;
+   }
 }
 .current{
-  color: #034f84;
-  background: white;
-  opacity: 90%;
+   color: #034f84;
+   background: white;
+   opacity: 90%;
+}
+
+@media (max-width: 992px) {
+   button.navbar-toggler{
+      width: 30%;
+      height: auto;
+
+   }
+   #estudioDonatoImg{
+
+   }
+   a.navbar-brand {
+      width: 30%;
+      height: auto;
+      margin-right: 0px;
+   }
 }
