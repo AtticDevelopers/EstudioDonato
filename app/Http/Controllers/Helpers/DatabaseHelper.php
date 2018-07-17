@@ -11,6 +11,6 @@ class DatabaseHelper
     }
 
     public function selectID($nombreTabla, $ID){
-    	return DB::select('select * from ' . $nombreTabla . ' where id = ' . $ID);
+    	return DB::select('select * from ' . $nombreTabla . ' where idEspecialista = ' . $ID);
     }
 }
