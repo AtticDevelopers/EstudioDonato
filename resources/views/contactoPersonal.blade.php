@@ -41,7 +41,7 @@
   <div class="row">
     <div class="col-lg-6 mb-4">
       <h3>Dejale tu mensaje</h3>
-      <form name="sentMessage" id="contactForm" method="POST" action="./contactopersonal" novalidate >
+      <form name="sentMessage" id="contactForm" method="POST" action="./contactopersonal">
         {{ csrf_field() }}
         <div class="control-group form-group">
           <div class="controls">
@@ -79,4 +79,5 @@
 
 </div>
 <!-- /.container -->
+<script src=js/contactopersonal.js></script>
 @endsection
