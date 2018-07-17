@@ -70,15 +70,15 @@
 <div class="container">
    <div class="row">
       @foreach ($areas as $area)
-         <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
-            <div class="card servicio">
-               <div class="card-body">
-                  <h3 class="card-title">{{ $area->nombreArea }}</h3>
-                  <p class="card-text">{{ $area->descripcionCorta}}</p>
-                  <a href="./especialistas" class="card-link">Mas <i class="fas fa-angle-double-right"></i></a>
-               </div>
+      <div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
+         <div class="card servicio">
+            <div class="card-body">
+               <h3 class="card-title">{{ $area->nombreArea }}</h3>
+               <p class="card-text">{{ $area->descripcionCorta}}</p>
+               <a href="./especialistas" class="card-link">Más <i class="fas fa-angle-double-right"></i></a>
             </div>
          </div>
+      </div>
       @endforeach
    </div>
 </div>

@@ -14,6 +14,8 @@
 
       <!-- Nuestro CSS -->
       <link rel="stylesheet" type="text/css" href="css/main-style.css">
+      
+      <link rel="shortcut icon" href="images/favicon.ico">
 
       @yield('style')
 
