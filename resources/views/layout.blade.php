@@ -23,6 +23,9 @@
    </head>
    <body>
       <!-- Navigation -->
+    @empty ($page)
+      @php ($page = "error")
+    @endempty
       <nav class="navbar navbar-expand-lg fixed-top">
          <div class="container">
             <a class="navbar-brand" href="./"><img id="estudioDonatoImg" src=images/logoPrueba7.png alt="Estudio Donato"></a>
