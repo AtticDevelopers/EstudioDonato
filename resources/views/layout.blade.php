@@ -57,8 +57,8 @@
          <div class="container row col-sm-12 text-white">
             <div class="col-sm-6 m-0 izq-footer">
                <p><i class="fas fa-map-marker-alt"></i> España 431</p>
-               <p><i class="fas fa-phone"></i> 4818932</p>
-               <p><i class="far fa-envelope"></i> contacto@estudiodonato.com</p>
+               <p><i class="fas fa-phone"></i> (0291) 4546904</p>
+               <p><i class="far fa-envelope"></i> abogados@estudiodonato.com.ar</p>
             </div>
             <div class="col-sm-6 m-0 der-footer">
                <p>Estudio Donato - Copyright <i class="far fa-copyright"></i> 2018</p>

@@ -59,7 +59,7 @@
 						</span>
 
 						<span class="txt3">
-							(291) 455 2257
+							(0291) 4546904
 						</span>
 					</div>
 				</div>
@@ -75,7 +75,7 @@
 						</span>
 
 						<span class="txt3">
-							contacto@estudiodonato.com
+							abogados@estudiodonato.com.ar
 						</span>
 					</div>
 				</div>
