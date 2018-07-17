@@ -24,7 +24,7 @@
 }
 
 body {
-   margin-top: 56px;
+   margin-top: 60px;
    height: 100%;
    font-family: Poppins-Regular, sans-serif;
 }
@@ -54,13 +54,9 @@ html {
 }
 
 #estudioDonatoImg{
-<<<<<<< HEAD
   margin: -6px 0px -10px 0px;
-=======
-   margin-bottom: -10px;
-   margin-top: -6px;
->>>>>>> 9171b7ac1b72d8c10937d225d1259142bb843143
 }
+
 .nav-link:hover {
    color: #034f84;
    background: white;
