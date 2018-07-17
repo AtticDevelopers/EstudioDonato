@@ -54,8 +54,7 @@ html {
 }
 
 #estudioDonatoImg{
-  margin-bottom: -10px;
-  margin-top: -6px;
+  margin: -6px 0px -10px 0px;
 }
 .nav-link:hover {
    color: #034f84;
