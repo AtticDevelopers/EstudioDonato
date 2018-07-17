@@ -33,7 +33,7 @@ h3.card-title::after {
   border-radius: 0 5% 5% 5%;
   border-width: thin thin thin thick;
   box-shadow: -10px 10px 15px 3px #00000094;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .tituloinicio , .copetetitulo {

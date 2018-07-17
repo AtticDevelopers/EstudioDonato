@@ -17,7 +17,7 @@
          <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card-body">
                <h4 class="card-title">
-                  <div class="btn btn-primary btn-area collapsed" type="button" data-toggle="collapse" data-target="#texto{{$valores['IDArea']}}" aria-expanded="false" aria-controls="texto{{$valores['IDArea']}}">
+                  <div class="btn btn-primary btn-area collapsed text-left" type="button" data-toggle="collapse" data-target="#texto{{$valores['IDArea']}}" aria-expanded="false" aria-controls="texto{{$valores['IDArea']}}">
                      <i class="fa fa-fw fa-chevron-down"></i>
                      <i class="fa fa-fw fa-chevron-right"></i> {{$nombreArea}}
                   </div>

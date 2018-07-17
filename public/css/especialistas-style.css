@@ -53,6 +53,7 @@ img.rounded-circle.img-fluid.d-block.mx-auto.responsive{
 
 .btn.btn-primary.btn-area.collapsed .fa-chevron-right, .btn.btn-primary.btn-area .fa-chevron-down{
    display: inline-block;
+   margin-left: 10%;
 }
 
 i.fa {
