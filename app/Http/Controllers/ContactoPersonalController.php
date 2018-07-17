@@ -35,8 +35,12 @@ class ContactoPersonalController extends Controller
 
     public function getContactoPersonalView(Request $request){
       $idEspecialista = $request->query('id');
+      if(is_null($idEspecialista))
+        return redirect('/contacto');
       $database = new DatabaseHelper();
       $especialista = $database->selectID('especialistas',$idEspecialista);
+      if($especialista == null)
+        return redirect('/contacto');
       return view('contactoPersonal', ['especialista' => $especialista[0],'page' => 'contacto']);
     }
 }
