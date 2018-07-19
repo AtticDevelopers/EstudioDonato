@@ -66,6 +66,16 @@ img.img-fluid.rounded.mb-3.mb-md-0 {
    height: auto;
 }
 
+br {
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+hr {
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
 @media (max-width: 992px) {
    body{
       margin-top: 93px;

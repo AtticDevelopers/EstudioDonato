@@ -11,6 +11,8 @@ class EspecialistasController extends Controller
     public function getEspecialistasView(){
         $especialistas = DB::select('SELECT * FROM especialistas ORDER BY apellido');
         $areasEspecialistas = DB::select('SELECT * FROM areas NATURAL JOIN areas_especialistas NATURAL JOIN especialistas ORDER BY nombreArea');
+        $mediacionPrejudicial = DB::select('SELECT IDArea, descripcionLarga FROM areas WHERE nombreArea = \'Mediación Prejudicial\' ');
+        
         $arreglo_areas = array();
         foreach($areasEspecialistas as &$area){
 
@@ -34,6 +36,8 @@ class EspecialistasController extends Controller
             $arreglo_general['abogados'] = $arreglo_abogados; 
             $arreglo_areas[$area->nombreArea] = $arreglo_general;
         }
+        $arreglo_areas['Mediación Prejudicial'] = array('IDArea' => $mediacionPrejudicial[0]->IDArea, 'descripcionLarga' => $mediacionPrejudicial[0]->descripcionLarga, 'abogados' => array());
+
         return view('especialistas', ['especialistas' => $especialistas, 'areas' => $arreglo_areas, 'page' => 'especialistas']);
     }
 }
