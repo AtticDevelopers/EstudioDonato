@@ -9,7 +9,7 @@ use App\Http\Controllers\Helpers\Abogado;
 class EspecialistasController extends Controller
 {
     public function getEspecialistasView(){
-        $especialistas = DB::select('SELECT * FROM especialistas ORDER BY apellido');
+        $especialistas = DB::select('SELECT * FROM especialistas');
         $areasEspecialistas = DB::select('SELECT * FROM areas NATURAL JOIN areas_especialistas NATURAL JOIN especialistas ORDER BY nombreArea');
         $mediacionPrejudicial = DB::select('SELECT IDArea, descripcionLarga FROM areas WHERE nombreArea = \'Mediación Prejudicial\' ');
         
