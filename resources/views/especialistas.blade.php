@@ -40,7 +40,7 @@
    <!-- Abogados  -->
    <div class="row">
       @foreach($especialistas as $especialista)
-         <div class="col-lg-4 col-sm-6 text-center mb-4" id="{{$especialista->apellido}}-{{$especialista->nombre}}">
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center mb-4" id="{{$especialista->apellido}}-{{$especialista->nombre}}">
             <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="Foto Abogado">
             <h3 class="nombre-especialista">{{$especialista->apellido}}, {{$especialista->nombre}}
               <br>
