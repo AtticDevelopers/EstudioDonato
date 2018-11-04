@@ -17,7 +17,7 @@
       <div class="carousel-inner" role="listbox">
          <!-- Slide One - Set the background image for this slide in the line below -->
          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/law1.jpg" alt="First slide">
+            <img class="d-block w-100" src="images/slides/slide12.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                <h3>First Slide</h3>
                <p>This is a description for the first slide.</p>
@@ -25,7 +25,7 @@
          </div>
          <!-- Slide Two - Set the background image for this slide in the line below -->
          <div class="carousel-item">
-            <img class="d-block w-100" src="images/law2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="images/slides/slide2.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block">
                <h3>Second Slide</h3>
                <p>This is a description for the second slide.</p>
@@ -33,7 +33,7 @@
          </div>
          <!-- Slide Three - Set the background image for this slide in the line below -->
          <div class="carousel-item">
-            <img class="d-block w-100" src="images/law3.jpg" alt="third slide">
+            <img class="d-block w-100" src="images/slides/slide3.jpg" alt="third slide">
             <div class="carousel-caption d-none d-md-block">
                <h3>Third Slide</h3>
                <p>This is a description for the third slide.</p>
@@ -41,7 +41,7 @@
          </div>
          <!-- Slide four - Set the background image for this slide in the line below -->
          <div class="carousel-item">
-            <img class="d-block w-100" src="images/law4.jpg" alt="fourth slide">
+            <img class="d-block w-100" src="images/slides/slide4.jpg" alt="fourth slide">
             <div class="carousel-caption d-none d-md-block">
                <h3>Third Slide</h3>
                <p>This is a description for the third slide.</p>
