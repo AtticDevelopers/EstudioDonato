@@ -13,12 +13,16 @@ h3.card-title {
 
 .carousel-item {
    background-position: 50% 50%;
-   height: 675px;
 }
 
 .carousel-item > img {
-    max-width: auto;
-    height: 100%;
+   width: inherit;
+   max-height: 100%;
+   /*position: relative;
+   transform: translateY(-40%);
+   max-width: auto;
+   height: 100%;*/
+
 }
 
 .carousel{
@@ -58,4 +62,14 @@ h3.card-title::after {
    position: absolute;
    bottom: 10px;
    right: 10px;
+}
+
+@media (max-width: 900px) {
+   .tituloinicio{
+      font-size: 1.8rem;
+   }
+   
+   h3.card-title{
+      font-size: 1.3rem;
+   }
 }

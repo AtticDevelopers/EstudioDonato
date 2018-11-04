@@ -69,6 +69,17 @@ i.fa {
    text-align: center;
 }
 
+h1#seccion-areas, h1#seccion-especialistas{
+   font-size: 1.8rem;   
+}
+
+
+@media (max-width: 900px) {
+   h1#seccion-areas, h1#seccion-especialistas{
+      font-size: 1.8rem;   
+   }
+}
+
 
 
 
