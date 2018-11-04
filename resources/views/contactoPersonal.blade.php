@@ -11,7 +11,7 @@
     <!-- Map Column -->
     <div class="col-lg-8 mb-4">
       <!-- Photo -->
-      <img class="rounded-circle img-fluid d-block mx-auto responsive" src="http://placehold.it/200x200" alt="Foto Abogado">
+      <img class="rounded-circle img-fluid d-block mx-auto responsive" src="{{$especialista->imagen}}" alt="Foto Abogado">
     </div>
     <!-- Contact Details Column -->
     <div class="col-lg-4 mb-4">
