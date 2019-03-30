@@ -25,12 +25,12 @@
 
 body {
    margin-top: 60px;
-   height: 100%;
+   height: auto;
    font-family: Poppins-Regular, sans-serif;
 }
 
 html {
-   height: 100%;
+   height: auto;
    font-family: Poppins-Regular, sans-serif;
 }
 
@@ -79,6 +79,8 @@ a.nav-link {
 
 footer {
    background: #034f84;
+   margin-top: 50px;
+   color: white;
 }
 
 .col-sm-6.m-0.izq-footer {
@@ -109,9 +111,6 @@ footer {
       width: auto;
       height: auto;
       margin-right: 10px;
-   }
-   #estudioDonatoImg{
-
    }
    a.navbar-brand {
       width: 20%;
