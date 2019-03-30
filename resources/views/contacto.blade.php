@@ -124,8 +124,85 @@
 				</div>
 			</form>
 
+			<div class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Oficina Coronel Dorrego
+				</span>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1-black p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1-black p-b-20">
+							Llamanos
+						</span>
+
+						<span class="txt2-black">
+							(0291) 4546904
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1-black p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1-black p-b-20">
+							Direccion
+						</span>
+
+						<span class="txt2-black">
+							Casal Varela 2180, Coronel Dorrego 
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Oficina Punta Alta
+				</span>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1-black p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1-black p-b-20">
+							Llamanos
+						</span>
+
+						<span class="txt2-black">
+							(02932) 421179
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1-black p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1-black p-b-20">
+							Direccion
+						</span>
+
+						<span class="txt2-black">
+							Humberto 194, Punta Alta
+						</span>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
+	
 
 	<div id="dropDownSelect1"></div>
 
