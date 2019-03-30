@@ -12,24 +12,19 @@
          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
          <!-- Slide One - Set the background image for this slide in the line below -->
          <div class="carousel-item active">
-            <img class="d-block w-100 center" src="images/slides/prueba.jpeg" alt="First slide">
+            <img class="d-block w-100 center" src="images/slides/slides1.jpeg" alt="First slide">
          </div>
          <!-- Slide Two - Set the background image for this slide in the line below -->
          <div class="carousel-item">
-            <img class="d-block w-100 center" src="images/slides/prueba2.jpeg" alt="Second slide">
+            <img class="d-block w-100 center" src="images/slides/slides2.jpg" alt="Second slide">
          </div>
          <!-- Slide Three - Set the background image for this slide in the line below -->
          <div class="carousel-item">
-            <img class="d-block w-100 center" src="images/slides/prueba.jpeg" alt="third slide">
-         </div>
-         <!-- Slide four - Set the background image for this slide in the line below -->
-         <div class="carousel-item">
-            <img class="d-block w-100 center" src="images/slides/prueba2.jpeg" alt="fourth slide">
+            <img class="d-block w-100 center" src="images/slides/slides3.jpg" alt="third slide">
          </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
