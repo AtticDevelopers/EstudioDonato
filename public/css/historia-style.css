@@ -114,3 +114,12 @@ hr {
       border-bottom-right-radius: 0px; 
    }
 }
+
+.seccion-texto--parrafo{
+   margin: 0 20px;
+   text-align: justify;
+}
+
+p.seccion-texto--parrafo{
+   text-indent: 20px;
+}
