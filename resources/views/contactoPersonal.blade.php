@@ -23,7 +23,7 @@
 @endsection
 
 @section('body')
-<div class="container">
+<div class="container" style="padding-top: 1px;">
   <!-- Content Row -->
   <div class="row" id="mainContacto">
     <!-- Map Column -->
