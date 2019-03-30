@@ -60,9 +60,9 @@
       <!-- Footer -->
        <footer class="page-footer font-small pt-4">
          <div class="container row text-white">
-               <p><i class="fas fa-map-marker-alt"></i>España 431</p>
-               <p><i class="fas fa-phone"></i>(0291) 4546904</p>
-               <p><i class="far fa-envelope"></i>abogados@estudiodonato.com.ar</p>
+               <p class="info-text"><i class="fas fa-map-marker-alt"></i>España 431</p>
+               <p class="info-text"><i class="far fa-envelope"></i>abogados@estudiodonato.com.ar</p>
+               <p class="info-text"><i class="fas fa-phone"></i>(0291) 4546904</p>
          </div>
          <div class="footer-copyright text-center py-3">© 2018 Copyright:
            <a>Attic Dev.</a>

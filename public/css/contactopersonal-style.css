@@ -1,5 +1,12 @@
+body, html{
+   height: auto;
+}
 .row {
    margin-top: 15px;
+}
+
+.container{
+   padding-top: 5px;
 }
 
 button#sendMessageButton {
