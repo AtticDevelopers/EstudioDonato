@@ -28,6 +28,39 @@
 				<span class="contact100-card-title">
 					Oficina Bahia Blanca
 				</span>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Llamanos
+						</span>
+
+						<span class="txt2">
+							(0291) 4546904
+						</span>
+					</div>
+				</div>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-envelope"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Mail de contacto
+						</span>
+
+						<span class="txt2">
+							abogados@estudiodonato.com.ar
+						</span>
+					</div>
+				</div>
+
 				<div class="flex-w size1 p-b-47">
 					<div class="txt1 p-r-25">
 						<span class="lnr lnr-map-marker"></span>
@@ -48,37 +81,6 @@
 					</div>
 				</div>
 
-				<div class="dis-flex size1 p-b-47">
-					<div class="txt1 p-r-25">
-						<span class="lnr lnr-phone-handset"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1 p-b-20">
-							Llamanos
-						</span>
-
-						<span class="txt3">
-							(0291) 4546904
-						</span>
-					</div>
-				</div>
-
-				<div class="dis-flex size1 p-b-47">
-					<div class="txt1 p-r-25">
-						<span class="lnr lnr-envelope"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1 p-b-20">
-							Mail de contacto
-						</span>
-
-						<span class="txt3">
-							abogados@estudiodonato.com.ar
-						</span>
-					</div>
-				</div>
 			</div>
 
 			<form class="contact100-form validate-form" method="POST" action="./contacto">

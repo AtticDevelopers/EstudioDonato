@@ -1,7 +1,25 @@
 @extends('layout')
 
 @section('style')
-<link rel="stylesheet" type="text/css" href="css/contactopersonal-style.css">
+  <link rel="stylesheet" type="text/css" href="css/contactopersonal-style.css">
+	<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="css/contact-util-style.css">
+	<!--===============================================================================================-->
+		<link rel="stylesheet" type="text/css" href="css/contact-main-style.css">
 @endsection
 
 @section('body')
@@ -43,8 +61,6 @@
             <input type="text" class="form-control" id="nombre" name="nombre" required data-validation-required-message="Nombre requerido.">
             <p class="help-block"></p>
           </div>
-        </div>
-        <div class="control-group form-group">
           <div class="controls">
             <label>Telefono:</label>
             <input type="tel" class="form-control" id="telefono" name="telefono" required data-validation-required-message="Telefono requerido.">
@@ -59,7 +75,7 @@
         <div class="control-group form-group">
           <div class="controls">
             <label>Mensaje:</label>
-            <textarea rows="10" cols="100" class="form-control" id="mensaje" name="mensaje" required data-validation-required-message="Deje su mensaje" maxlength="999" style="resize:none"></textarea>
+            <textarea rows="5" cols="20" class="form-control" id="mensaje" name="mensaje" required data-validation-required-message="Deje su mensaje" maxlength="999" style="resize:none"></textarea>
           </div>
         </div>
         <div id="success"></div>
