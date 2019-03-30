@@ -83,6 +83,10 @@ footer {
    color: white;
 }
 
+.footer-copyright.text-center.py-3{
+   color: lightgray;
+}
+
 .col-sm-6.m-0.izq-footer {
    text-align: left;
 }
@@ -127,6 +131,10 @@ footer {
    padding: 0px;
    display: flex;
    justify-content: space-evenly;
+}
+
+.container.row.text-white p.info-text{
+   font-size: 18px;
 }
 
 .container.row.text-white .info-text i{
