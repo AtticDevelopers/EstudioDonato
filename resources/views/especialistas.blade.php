@@ -7,9 +7,7 @@
 @section('body')
 <div class="container">
 
-   <h1 class="my-4" id="seccion-areas">Especialistas
-      <small>Clasificación por áreas</small>
-   </h1>
+   <h1 class="my-4" id="seccion-areas">Nuestras Especialidades</h1>
 
    <!-- Areas -->
    <div class="row">
@@ -33,9 +31,7 @@
       @endforeach
    </div>
 
-   <h1 class="my-4" id="seccion-especialistas">Especialistas
-      <small>Clasificación por profesional</small>
-   </h1>
+   <h1 class="my-4" id="seccion-especialistas">Profesionales</h1>
 
    <!-- Abogados  -->
    <div class="row">

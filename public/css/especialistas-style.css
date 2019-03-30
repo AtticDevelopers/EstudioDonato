@@ -23,7 +23,7 @@ p.contactar-profesional {
    margin-bottom: 5px;
 }
 
-p.contactar-profesional : hover{   
+p.contactar-profesional:hover{   
    text-decoration: none;
 }
 
@@ -70,7 +70,8 @@ i.fa {
 }
 
 h1#seccion-areas, h1#seccion-especialistas{
-   font-size: 1.8rem;   
+   font-size: 1.8rem; 
+   padding-top: 1rem;
 }
 
 

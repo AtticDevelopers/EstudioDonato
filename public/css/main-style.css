@@ -59,7 +59,7 @@ html {
 
 .nav-link:hover:not(.current) {
    color: #034f84;
-   background: #D3D3D3;
+   background: #EAEAEA;
    opacity: 90%;
 }
 
