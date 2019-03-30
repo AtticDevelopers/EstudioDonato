@@ -14,7 +14,7 @@
 
       <!-- Nuestro CSS -->
       <link rel="stylesheet" type="text/css" href="css/main-style.css">
-      
+
       <link rel="shortcut icon" href="images/favicon.ico">
 
       @yield('style')
@@ -58,19 +58,15 @@
       @yield('body')
 
       <!-- Footer -->
-      <footer class="py-2">
-         <div class="container row col-sm-12 text-white">
-            <div class="col-sm-6 m-0 izq-footer">
-               <p><i class="fas fa-map-marker-alt"></i> España 431</p>
-               <p><i class="fas fa-phone"></i> (0291) 4546904</p>
-               <p><i class="far fa-envelope"></i> abogados@estudiodonato.com.ar</p>
-            </div>
-            <div class="col-sm-6 m-0 der-footer">
-               <p>Estudio Donato - Copyright <i class="far fa-copyright"></i> 2018</p>
-               <p>Design & Dev. <i class="fas fa-code"></i> Attic Developers</p>
-            </div>
+       <footer class="page-footer font-small pt-4">
+         <div class="container row text-white">
+               <p><i class="fas fa-map-marker-alt"></i>España 431</p>
+               <p><i class="fas fa-phone"></i>(0291) 4546904</p>
+               <p><i class="far fa-envelope"></i>abogados@estudiodonato.com.ar</p>
          </div>
-         <!-- /.container -->
+         <div class="footer-copyright text-center py-3">© 2018 Copyright:
+           <a>Attic Dev.</a>
+         </div>
       </footer>
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
