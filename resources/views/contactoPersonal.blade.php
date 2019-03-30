@@ -9,36 +9,30 @@
   <!-- Content Row -->
   <div class="row" id="mainContacto">
     <!-- Map Column -->
-    <div class="col-lg-8 mb-4">
+    <div class="col-lg-4 mb-4">
       <!-- Photo -->
       <img class="rounded-circle img-fluid d-block mx-auto responsive" src="{{$especialista->imagen}}" alt="Foto Abogado">
-    </div>
-    <!-- Contact Details Column -->
-    <div class="col-lg-4 mb-4">
-      <h3>{{$especialista->nombre}} {{$especialista->apellido}}</h3>
-      <p>
-        España 431
-        <br>Bahia Blanca, Buenos Aires 8000
-        <br>
-      </p>
-      <p>
-        <abbr title="Telefono">T</abbr>:{{$especialista->telefono}}
-      </p>
-      <p>
-        <abbr title="Email">E</abbr>:
-        <a href="mailto:name@example.com">{{$especialista->email}}
-        </a>
-      </p>
-      <p>
-        <abbr title="Horas">H</abbr>: Luners - Viernes: 8:00 a 18:00
-      </p>
-    </div>
+      <div>
+        <h3>{{$especialista->nombre}} {{$especialista->apellido}}</h3>
+        <p>
+          España 431
+          <br>Bahia Blanca, Buenos Aires 8000
+          <br>
+        </p>
+        <p>
+          <abbr title="Telefono">Tel</abbr>:{{$especialista->telefono}}
+        </p>
+        <p>
+          <abbr title="Email">Email</abbr>:
+          <a href="mailto:name@example.com">{{$especialista->email}}
+          </a>
+        </p>
+        <p>
+          <abbr title="Horas">Horario</abbr>: Luners - Viernes: 8:00 a 18:00
+        </p>
+      </div>
   </div>
-  <!-- /.row -->
-
-  <!-- Contact Form -->
-  <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-  <div class="row">
+    <!-- Contact Details Column -->
     <div class="col-lg-6 mb-4">
       <h3>Dejale tu mensaje</h3>
       <form name="sentMessage" id="contactForm" method="POST" action="./contactopersonal">
@@ -73,8 +67,12 @@
         <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
       </form>
     </div>
-
   </div>
+  <!-- /.row -->
+
+  <!-- Contact Form -->
+  <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+  
   <!-- /.row -->
 
 </div>
