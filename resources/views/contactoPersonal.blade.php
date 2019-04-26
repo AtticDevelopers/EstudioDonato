@@ -78,6 +78,7 @@
             <textarea rows="5" cols="20" class="form-control" id="mensaje" name="mensaje" required data-validation-required-message="Deje su mensaje" maxlength="999" style="resize:none"></textarea>
           </div>
         </div>
+        <input type="email" id="emailEspecialista" name="emailEspecialista" value="{{$especialista->email}}" hidden>
         <div id="success"></div>
         <!-- For success/fail messages -->
         <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>

@@ -23,7 +23,7 @@ class ContactController extends Controller
       Mail::send('emails.contact',$data,function($message) use ($data) {
         $message->from('atticdevelopers@gmail.com');
         $message->to('atticdevelopers@gmail.com');
-        $message->subject('[estudiodonato.com]: Nuevo mensaje de '.$data['nombre'].' '.$data['apellido']);
+        $message->subject('[estudiodonato.com.ar]: Nuevo mensaje de '.$data['nombre'].' '.$data['apellido']);
       });
 
       Session::flash('success','Su mail ha sido enviado');

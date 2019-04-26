@@ -26,7 +26,7 @@
 		<div class="wrap-contact100">
 			<div class="contact100-more flex-col-c-m" style="background-image: url('images/bg-01.jpg');">
 				<span class="contact100-card-title">
-					Oficina Bahia Blanca
+					Oficina Bahía Blanca
 				</span>
 
 				<div class="dis-flex size1 p-b-47">
@@ -45,18 +45,38 @@
 					</div>
 				</div>
 
-				<div class="dis-flex size1 p-b-47">
+				<div class="flex-w size1 p-b-47">
 					<div class="txt1 p-r-25">
-						<span class="lnr lnr-envelope"></span>
+						<span class="lnr lnr-map-marker"></span>
 					</div>
 
 					<div class="flex-col size2">
 						<span class="txt1 p-b-20">
-							Mail de contacto
+							Dirección
 						</span>
 
 						<span class="txt2">
-							abogados@estudiodonato.com.ar
+							España 431, Bahia Blanca, Buenos Aires
+						</span>
+					</div>
+				</div>
+
+				<span class="contact100-card-title">
+					Oficina Punta Alta
+				</span>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Llamanos
+						</span>
+
+						<span class="txt2">
+							(02932) 421179
 						</span>
 					</div>
 				</div>
@@ -68,16 +88,48 @@
 
 					<div class="flex-col size2">
 						<span class="txt1 p-b-20">
-							Direccion
+							Dirección
 						</span>
 
 						<span class="txt2">
-							España 431, Bahia Blanca, Buenos Aires, 8000
+							Humberto Primo 194, Punta Alta, Buenos Aires
 						</span>
-						<!-- Map Column -->
-					<div id="map">
-						<!-- Embedded Google Map -->
 					</div>
+				</div>
+
+				<span class="contact100-card-title">
+					Oficina Cnel. Dorrego
+				</span>
+
+				<div class="dis-flex size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-phone-handset"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Llamanos
+						</span>
+
+						<span class="txt2">
+							(0291) 4546904
+						</span>
+					</div>
+				</div>
+
+				<div class="flex-w size1 p-b-47">
+					<div class="txt1 p-r-25">
+						<span class="lnr lnr-map-marker"></span>
+					</div>
+
+					<div class="flex-col size2">
+						<span class="txt1 p-b-20">
+							Dirección
+						</span>
+
+						<span class="txt2">
+							Casal Varela 2180, Coronel Dorrego, Buenos Aires
+						</span>
 					</div>
 				</div>
 
@@ -88,7 +140,12 @@
 				<span class="contact100-form-title">
 					Contactanos
 				</span>
-
+				<div class="txt1-black">
+						<span class="lnr lnr-envelope"></span>
+						<a href="mailto:abogados@estudiodonato.com.ar">
+							abogados@estudiodonato.com.ar
+						</a>
+				</div>
 				<label class="label-input100" for="first-name">Dejanos tu nombre *</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Ingrese su nombre">
 					<input id="first-name" class="input100" type="text" name="nombre" placeholder="Nombre">
@@ -105,7 +162,7 @@
 
 				</div>
 
-				<label class="label-input100" for="phone">Ingrese numero de telefono</label>
+				<label class="label-input100" for="phone">Ingrese número de telefono</label>
 				<div class="wrap-input100">
 					<input id="phone" class="input100" type="text" name="telefono" placeholder="Ej. 291 4123123">
 
@@ -123,93 +180,14 @@
 					</button>
 				</div>
 			</form>
-
-			<div class="contact100-form validate-form">
-				<span class="contact100-form-title">
-					Oficina Coronel Dorrego
-				</span>
-
-				<div class="dis-flex size1 p-b-47">
-					<div class="txt1-black p-r-25">
-						<span class="lnr lnr-phone-handset"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1-black p-b-20">
-							Llamanos
-						</span>
-
-						<span class="txt2-black">
-							(0291) 4546904
-						</span>
-					</div>
-				</div>
-
-				<div class="dis-flex size1 p-b-47">
-					<div class="txt1-black p-r-25">
-						<span class="lnr lnr-map-marker"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1-black p-b-20">
-							Direccion
-						</span>
-
-						<span class="txt2-black">
-							Casal Varela 2180, Coronel Dorrego 
-						</span>
-					</div>
-				</div>
-			</div>
-
-			<div class="contact100-form validate-form">
-				<span class="contact100-form-title">
-					Oficina Punta Alta
-				</span>
-
-				<div class="dis-flex size1 p-b-47">
-					<div class="txt1-black p-r-25">
-						<span class="lnr lnr-phone-handset"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1-black p-b-20">
-							Llamanos
-						</span>
-
-						<span class="txt2-black">
-							(02932) 421179
-						</span>
-					</div>
-				</div>
-
-				<div class="dis-flex size1 p-b-47">
-					<div class="txt1-black p-r-25">
-						<span class="lnr lnr-map-marker"></span>
-					</div>
-
-					<div class="flex-col size2">
-						<span class="txt1-black p-b-20">
-							Direccion
-						</span>
-
-						<span class="txt2-black">
-							Humberto 194, Punta Alta
-						</span>
-					</div>
-				</div>
-			</div>
-
+			<div id="map"></div>
 		</div>
+		
 	</div>
-	
-
-	<div id="dropDownSelect1"></div>
-
 
 	<script src=js/contacto.js></script>
 	<script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1NEVvUku-j3rt90MdOVQBNNxW7PMlTck&callback=initMap">
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1NEVvUku-j3rt90MdOVQBNNxW7PMlTck&callback=initMap">
 	</script>
 	<!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -240,6 +218,4 @@
 
 		gtag('config', 'UA-23581568-13');
 	</script>
-
-</body>
 @endsection
