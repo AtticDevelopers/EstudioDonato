@@ -10,7 +10,7 @@ class EspecialistasController extends Controller
 {
     public function getEspecialistasView(){
         $especialistas = DB::select('SELECT * FROM especialistas');
-        $areasEspecialistas = DB::select('SELECT * FROM areas NATURAL JOIN areas_especialistas NATURAL JOIN especialistas ORDER BY nombreArea');
+        $areasEspecialistas = DB::select('SELECT * FROM areas NATURAL JOIN areas_especialistas NATURAL JOIN especialistas ORDER BY orden');
         $mediacionPrejudicial = DB::select('SELECT IDArea, descripcionLarga FROM areas WHERE nombreArea = \'Mediación Prejudicial\' ');
         
         $arreglo_areas = array();
