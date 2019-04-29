@@ -126,16 +126,21 @@ footer {
 }
 
 .container.row.text-white{
-   width: 100%;
+   width: 60%;
    padding: 0px;
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
 }
 
 .container.row.text-white p.info-text{
    font-size: 18px;
 }
 
-.container.row.text-white .info-text i{
+.container.row.text-white .info-text i, p.info-text--main i {
    padding-right: 4px;
+}
+
+p.info-text--main{
+   font-size: 20px;
+   text-align: center;
 }

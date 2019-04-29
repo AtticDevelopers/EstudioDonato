@@ -59,9 +59,20 @@
 
       <!-- Footer -->
        <footer class="page-footer font-small pt-4">
+       <p class="info-text--main"><i class="far fa-envelope"></i>abogados@estudiodonato.com.ar</p>
          <div class="container row text-white">
+               <p class="info-text"><i class="fas fa-building"></i>Bahía Blanca</p>
                <p class="info-text"><i class="fas fa-map-marker-alt"></i>España 431</p>
-               <p class="info-text"><i class="far fa-envelope"></i>abogados@estudiodonato.com.ar</p>
+               <p class="info-text"><i class="fas fa-phone"></i>(0291) 4546904</p>
+         </div>
+         <div class="container row text-white">         
+               <p class="info-text"><i class="fas fa-building"></i>Punta Alta</p>
+               <p class="info-text"><i class="fas fa-map-marker-alt"></i>Humberto Primo 194</p>
+               <p class="info-text"><i class="fas fa-phone"></i>(02932) 421179</p>
+         </div>
+         <div class="container row text-white">
+               <p class="info-text"><i class="fas fa-building"></i>Cnel. Dorrego</p>
+               <p class="info-text"><i class="fas fa-map-marker-alt"></i>Casal Varela 2180</p>
                <p class="info-text"><i class="fas fa-phone"></i>(0291) 4546904</p>
          </div>
          <div class="footer-copyright text-center py-3">© 2018 Copyright:
@@ -77,6 +88,6 @@
             header: '.navbar',
             updateURL: false
          });
-      </script>
+      </script>      
    </body>
 </html>
