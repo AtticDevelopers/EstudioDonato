@@ -12,4 +12,6 @@ body, html{
 
 button#sendMessageButton {
    background: #034f84;
+   -webkit-appearance: none;
+   border: none;
 }

@@ -38,6 +38,8 @@ p.card-text {
    background: #034f84;
    font-weight: 500;
    font-size-adjust: auto;
+   -webkit-appearance: none;
+   border: none;
 }
 
 img.rounded-circle.img-fluid.d-block.mx-auto.responsive{

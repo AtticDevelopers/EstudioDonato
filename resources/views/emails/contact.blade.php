@@ -1,4 +1,4 @@
-<h3> Nuevo Mail de {{ $nombre }} {{ $apellido }} </h3>
+<h3> Nueva Consulta de {{ $nombre }} {{ $apellido }} </h3>
 
 <div>
 <h4><b> Mensaje </b></h4>

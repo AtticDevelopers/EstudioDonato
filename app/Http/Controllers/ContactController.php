@@ -22,7 +22,7 @@ class ContactController extends Controller
 
       Mail::send('emails.contact',$data,function($message) use ($data) {
         $message->from('atticdevelopers@gmail.com');
-        $message->to('atticdevelopers@gmail.com');
+        $message->to('abogados@estudiodonato.com.ar');
         $message->subject('[estudiodonato.com.ar]: Nuevo mensaje de '.$data['nombre'].' '.$data['apellido']);
       });
 

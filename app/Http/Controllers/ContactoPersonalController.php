@@ -23,7 +23,7 @@ class ContactoPersonalController extends Controller
 
       Mail::send('emails.contactoPersonalMail',$data,function($message) use ($data) {
         $message->from('atticdevelopers@gmail.com');
-        $message->to('atticdevelopers@gmail.com');
+        $message->to($request->emailEspecialista);
         $message->subject('[estudiodonato.com.ar]: Nuevo mensaje de '.$data['nombre']);
       });
 
